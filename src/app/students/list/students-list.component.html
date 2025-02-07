@@ -1,0 +1,57 @@
+<div class="students-list-container">
+  <div class="students-table-container">
+    <p-table
+      [value]="students"
+      [paginator]="true"
+      [rows]="pageSize"
+      [totalRecords]="totalRecords"
+      [lazy]="true"
+      [loading]="loading"
+      (onPage)="onPageChange($event)"
+      responsiveLayout="scroll"
+      [tableStyle]="{ 'min-width': '50rem' }"
+      stripedRows
+      [first]="pageSize"
+      [showCurrentPageReport]="true"
+      currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+      [rowsPerPageOptions]="[5, 10, 20, 50, 100]"
+    >
+      <ng-template pTemplate="header">
+        <tr>
+          <th pSortableColumn="uid">UID <p-sortIcon field="uid"></p-sortIcon></th>
+          <th pSortableColumn="firstName">Name <p-sortIcon field="firstName"></p-sortIcon></th>
+          <th pSortableColumn="lastName">Surname <p-sortIcon field="lastName"></p-sortIcon></th>
+          <th pSortableColumn="age">Age <p-sortIcon field="age"></p-sortIcon></th>
+          <th pSortableColumn="gender">Gender <p-sortIcon field="gender"></p-sortIcon></th>
+          <th pSortableColumn="grade">Grade <p-sortIcon field="grade"></p-sortIcon></th>
+          <th pSortableColumn="courses">Courses <p-sortIcon field="courses"></p-sortIcon></th>
+          <th></th>
+        </tr>
+      </ng-template>
+
+      <ng-template pTemplate="body" let-student>
+        <tr>
+          <td>{{ student.uid }}</td>
+          <td>{{ student.firstName }}</td>
+          <td>{{ student.lastName }}</td>
+          <td>{{ student.age }}</td>
+          <td>{{ student.gender }}</td>
+          <td>{{ student.grade }}</td>
+          <td>{{ student.courses.join(', ') }}</td>
+          <td>
+            <p-splitbutton
+              label="Options"
+              class="student-action-holder"
+              dropdownIcon="pi pi-ellipsis-v"
+              [model]="studentActions"
+              severity="secondary"
+              text="false"
+            >
+            </p-splitbutton>
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+</div>
+<router-outlet />
