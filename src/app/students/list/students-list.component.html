@@ -15,6 +15,9 @@
       [showCurrentPageReport]="true"
       currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
       [rowsPerPageOptions]="[5, 10, 20, 50, 100]"
+      [sortMode]="'single'"
+      [customSort]="true"
+      (onSort)="customSort($event)"
     >
       <ng-template pTemplate="header">
         <tr>
@@ -37,7 +40,7 @@
           <td>{{ student.age }}</td>
           <td>{{ student.gender }}</td>
           <td>{{ student.grade }}</td>
-          <td>{{ student.courses.join(', ') }}</td>
+          <td>{{ student.courses }}</td>
           <td>
             <p-splitbutton
               label="Options"

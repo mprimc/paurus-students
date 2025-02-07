@@ -7,6 +7,7 @@ import { TableModule } from 'primeng/table'
 import { SplitButton } from 'primeng/splitbutton'
 import { ButtonAction } from '../../../enums/actions'
 import { MenuItem } from 'primeng/api'
+import { ChangeDetectorRef } from '@angular/core'
 
 @Component({
   selector: 'app-students-list',
@@ -35,7 +36,10 @@ export class StudentListComponent {
   currentPage = 1
   pageSize = 20
 
-  constructor(private studentService: StudentService) {}
+  constructor(
+    private cdRef: ChangeDetectorRef,
+    private studentService: StudentService
+  ) {}
 
   ngOnInit(): void {
     this.fetchStudents(1)
@@ -48,6 +52,7 @@ export class StudentListComponent {
         this.students = response.result
         this.totalRecords = response.pagination.totalRecords
         this.currentPage = response.pagination.currentPage
+        this.cdRef.detectChanges()
         this.loading = false
       },
       error: (error) => {
@@ -65,5 +70,27 @@ export class StudentListComponent {
 
   selectStudentOption(action: ButtonAction): void {
     console.log('option selected', action)
+  }
+
+  customSort(event: any) {
+    const field = event.field
+    const order = event.order
+
+    this.students.sort((a: any, b: any) => {
+      let value1 = a[field]
+      let value2 = b[field]
+
+      if (typeof value1 === 'string') {
+        return order * value1.localeCompare(value2)
+      } else if (typeof value1 === 'object') {
+        return order * value1.join(',').localeCompare(value2.join(','))
+      } else {
+        return order * (value1 - value2)
+      }
+    })
+
+    // Force change detection
+    this.students = [...this.students]
+    this.cdRef.detectChanges()
   }
 }
