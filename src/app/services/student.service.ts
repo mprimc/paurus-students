@@ -1,4 +1,4 @@
-import { PaginatedResponse } from './../interfaces/pagination.interfaces'
+import { PaginatedResponse } from '../interfaces/pagination.interfaces'
 import { map } from 'rxjs/operators'
 import { Observable } from 'rxjs'
 import { Injectable } from '@angular/core'
