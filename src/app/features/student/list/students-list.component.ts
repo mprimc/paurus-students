@@ -1,21 +1,21 @@
-import { Component } from '@angular/core'
-import { RouterOutlet } from '@angular/router'
+import { Component, OnInit } from '@angular/core'
+
 import { PaginatedResponse } from '../../../interfaces/pagination.interfaces'
 import { Student } from '../../../interfaces/student.interfaces'
 import { StudentService } from '../../../services/student.service'
-import { TableModule } from 'primeng/table'
-import { SplitButton } from 'primeng/splitbutton'
+
 import { ButtonAction } from '../../../enums/actions'
 import { MenuItem } from 'primeng/api'
 import { ChangeDetectorRef } from '@angular/core'
 
 @Component({
+  standalone: false,
   selector: 'app-students-list',
-  imports: [RouterOutlet, TableModule, SplitButton],
+
   templateUrl: './students-list.component.html',
   styleUrl: './students-list.component.scss'
 })
-export class StudentListComponent {
+export class StudentListComponent implements OnInit {
   studentActions: MenuItem[] = [
     {
       label: ButtonAction.Edit,
@@ -55,7 +55,7 @@ export class StudentListComponent {
         this.cdRef.detectChanges()
         this.loading = false
       },
-      error: (error) => {
+      error: (error: any) => {
         console.error('Error accrued when trying to fetch students data: ', error)
         this.loading = false
       }

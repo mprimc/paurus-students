@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing'
 import { provideHttpClientTesting, HttpTestingController } from '@angular/common/http/testing'
 import { JsonReaderService } from './json-reader.service'
-import { Student } from '../interfaces/student.interfaces'
+import { Student } from '../app/interfaces/student.interfaces'
 import { provideHttpClient } from '@angular/common/http'
 
 describe('JsonReaderService', () => {
