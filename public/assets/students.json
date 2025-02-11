@@ -5,7 +5,6 @@
     "lastName": "Jennings",
     "age": 21,
     "gender": "Other",
-
     "courses": ["Biology", "Music", "Art"]
   },
   {
@@ -14,7 +13,6 @@
     "lastName": "Levine",
     "age": 22,
     "gender": "Male",
-
     "courses": ["History", "Science", "Art", "English"]
   },
   {
@@ -23,7 +21,6 @@
     "lastName": "Sanders",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Science", "English", "Art"]
   },
   {
@@ -32,7 +29,6 @@
     "lastName": "Martinez",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Chemistry", "Art", "Music", "Math", "Biology"]
   },
   {
@@ -41,7 +37,6 @@
     "lastName": "Gibson",
     "age": 22,
     "gender": "Male",
-
     "courses": ["History", "Physical Education", "Art", "Math", "Science"]
   },
   {
@@ -50,7 +45,6 @@
     "lastName": "May",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Science", "English", "Art", "Music"]
   },
   {
@@ -59,7 +53,6 @@
     "lastName": "Smith",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Math", "Chemistry", "Music", "Physical Education"]
   },
   {
@@ -68,7 +61,6 @@
     "lastName": "Sanchez",
     "age": 19,
     "gender": "Female",
-
     "courses": ["History", "Computer Science", "Physical Education", "English", "Chemistry"]
   },
   {
@@ -77,7 +69,6 @@
     "lastName": "Cunningham",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Computer Science", "Music", "Art", "History", "Chemistry"]
   },
   {
@@ -86,7 +77,6 @@
     "lastName": "Hubbard",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Biology", "English", "Chemistry", "Physical Education"]
   },
   {
@@ -95,7 +85,6 @@
     "lastName": "Robinson",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Computer Science", "Music", "English", "Physical Education", "Math"]
   },
   {
@@ -104,7 +93,6 @@
     "lastName": "Murphy",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Physical Education", "English", "Art"]
   },
   {
@@ -113,7 +101,6 @@
     "lastName": "Lester",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Biology", "History", "Art"]
   },
   {
@@ -122,7 +109,6 @@
     "lastName": "Garrison",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Physical Education", "Music", "Computer Science", "Science", "Math"]
   },
   {
@@ -131,7 +117,6 @@
     "lastName": "Anderson",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Physical Education", "Biology", "Math", "English", "Science"]
   },
   {
@@ -140,7 +125,6 @@
     "lastName": "Thompson",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Science", "Chemistry", "Art"]
   },
   {
@@ -149,7 +133,6 @@
     "lastName": "Johnson",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Music", "Art", "History"]
   },
   {
@@ -158,7 +141,6 @@
     "lastName": "Tyler",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Music", "Computer Science", "Math", "History"]
   },
   {
@@ -167,7 +149,6 @@
     "lastName": "Morris",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Biology", "Science", "Computer Science"]
   },
   {
@@ -176,7 +157,6 @@
     "lastName": "Williams",
     "age": 25,
     "gender": "Male",
-
     "courses": ["English", "Art", "Music", "Physical Education"]
   },
   {
@@ -185,7 +165,6 @@
     "lastName": "Fox",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Math", "Science", "Computer Science"]
   },
   {
@@ -194,7 +173,6 @@
     "lastName": "Alvarez",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Art", "Math", "Computer Science", "Science"]
   },
   {
@@ -203,7 +181,6 @@
     "lastName": "Palmer",
     "age": 23,
     "gender": "Male",
-
     "courses": ["Music", "Math", "History", "Chemistry", "Biology"]
   },
   {
@@ -212,7 +189,6 @@
     "lastName": "Gordon",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Chemistry", "Music", "Math"]
   },
   {
@@ -221,7 +197,6 @@
     "lastName": "Williams",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Science", "Chemistry", "History", "Physical Education", "English"]
   },
   {
@@ -230,7 +205,6 @@
     "lastName": "Camacho",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Art", "History", "Science"]
   },
   {
@@ -239,7 +213,6 @@
     "lastName": "Ellis",
     "age": 22,
     "gender": "Male",
-
     "courses": ["Music", "Physical Education", "Computer Science", "Math", "English"]
   },
   {
@@ -248,7 +221,6 @@
     "lastName": "Brown",
     "age": 20,
     "gender": "Male",
-
     "courses": ["History", "Math", "Science"]
   },
   {
@@ -257,7 +229,6 @@
     "lastName": "Morales",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Art", "Science", "Chemistry"]
   },
   {
@@ -266,7 +237,6 @@
     "lastName": "Henry",
     "age": 24,
     "gender": "Male",
-
     "courses": ["History", "English", "Chemistry", "Physical Education"]
   },
   {
@@ -275,7 +245,6 @@
     "lastName": "Jones",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Physical Education", "Math", "Music"]
   },
   {
@@ -284,7 +253,6 @@
     "lastName": "Franklin",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Physical Education", "Science", "Biology", "Computer Science"]
   },
   {
@@ -293,7 +261,6 @@
     "lastName": "Hill",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Art", "Physical Education", "English"]
   },
   {
@@ -302,7 +269,6 @@
     "lastName": "Kelley",
     "age": 23,
     "gender": "Male",
-
     "courses": ["Art", "Math", "Biology", "Chemistry", "Science"]
   },
   {
@@ -311,7 +277,6 @@
     "lastName": "Vang",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Math", "Science", "Computer Science", "History", "Art"]
   },
   {
@@ -320,7 +285,6 @@
     "lastName": "Chavez",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Science", "Physical Education", "Computer Science", "Chemistry", "History"]
   },
   {
@@ -329,7 +293,6 @@
     "lastName": "Garcia",
     "age": 21,
     "gender": "Other",
-
     "courses": ["Music", "Biology", "Computer Science", "Math"]
   },
   {
@@ -338,7 +301,6 @@
     "lastName": "Farrell",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Physical Education", "Chemistry", "Art", "Science"]
   },
   {
@@ -347,7 +309,6 @@
     "lastName": "Mack",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Computer Science", "History", "Music"]
   },
   {
@@ -356,7 +317,6 @@
     "lastName": "Lewis",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Biology", "English", "Math", "Art"]
   },
   {
@@ -365,7 +325,6 @@
     "lastName": "Perez",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Chemistry", "Math", "Biology"]
   },
   {
@@ -374,7 +333,6 @@
     "lastName": "Chavez",
     "age": 25,
     "gender": "Female",
-
     "courses": ["History", "Computer Science", "English", "Art"]
   },
   {
@@ -383,7 +341,6 @@
     "lastName": "Davis",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Art", "English", "Chemistry", "Computer Science"]
   },
   {
@@ -392,7 +349,6 @@
     "lastName": "Ortega",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Science", "Chemistry", "Physical Education", "Music", "English"]
   },
   {
@@ -401,7 +357,6 @@
     "lastName": "Hernandez",
     "age": 23,
     "gender": "Male",
-
     "courses": ["Music", "Math", "Biology", "Science"]
   },
   {
@@ -410,7 +365,6 @@
     "lastName": "Jones",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Chemistry", "Computer Science", "History", "Art", "Physical Education"]
   },
   {
@@ -419,7 +373,6 @@
     "lastName": "Davis",
     "age": 20,
     "gender": "Other",
-
     "courses": ["English", "Science", "History", "Computer Science", "Math"]
   },
   {
@@ -428,7 +381,6 @@
     "lastName": "Rodgers",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Computer Science", "Science", "History", "Art"]
   },
   {
@@ -437,7 +389,6 @@
     "lastName": "Hawkins",
     "age": 18,
     "gender": "Female",
-
     "courses": ["Science", "Chemistry", "English", "Biology"]
   },
   {
@@ -446,7 +397,6 @@
     "lastName": "Hoffman",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Music", "Biology", "Chemistry", "Science", "Math"]
   },
   {
@@ -455,7 +405,6 @@
     "lastName": "Martinez",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Physical Education", "Chemistry", "Music", "Science", "Biology"]
   },
   {
@@ -464,7 +413,6 @@
     "lastName": "Ortega",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Physical Education", "Science", "Music", "Chemistry"]
   },
   {
@@ -473,7 +421,6 @@
     "lastName": "Parrish",
     "age": 18,
     "gender": "Other",
-
     "courses": ["English", "Art", "History", "Music"]
   },
   {
@@ -482,7 +429,6 @@
     "lastName": "Schmitt",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Biology", "History", "Computer Science", "Art", "Physical Education"]
   },
   {
@@ -491,7 +437,6 @@
     "lastName": "Bell",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Chemistry", "Music", "Physical Education", "Biology", "Science"]
   },
   {
@@ -500,7 +445,6 @@
     "lastName": "Lewis",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Art", "Math", "Physical Education", "Biology"]
   },
   {
@@ -509,7 +453,6 @@
     "lastName": "Walker",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Chemistry", "Math", "Science", "English"]
   },
   {
@@ -518,7 +461,6 @@
     "lastName": "Bruce",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Biology", "Chemistry", "History", "English", "Art"]
   },
   {
@@ -527,7 +469,6 @@
     "lastName": "Farmer",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Biology", "Science", "Art", "Math"]
   },
   {
@@ -536,7 +477,6 @@
     "lastName": "Aguirre",
     "age": 23,
     "gender": "Male",
-
     "courses": ["History", "Biology", "Computer Science"]
   },
   {
@@ -545,7 +485,6 @@
     "lastName": "Villegas",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Chemistry", "Science", "Art", "Physical Education", "History"]
   },
   {
@@ -554,7 +493,6 @@
     "lastName": "Austin",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Chemistry", "Physical Education", "English", "Computer Science", "Art"]
   },
   {
@@ -563,7 +501,6 @@
     "lastName": "Johnson",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Chemistry", "English", "Physical Education", "Math", "Science"]
   },
   {
@@ -572,7 +509,6 @@
     "lastName": "Gallegos",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Math", "History", "Music", "Computer Science"]
   },
   {
@@ -581,7 +517,6 @@
     "lastName": "White",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Music", "Biology", "Art", "Computer Science"]
   },
   {
@@ -590,7 +525,6 @@
     "lastName": "Parker",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Music", "Computer Science", "Chemistry", "Math"]
   },
   {
@@ -599,7 +533,6 @@
     "lastName": "Smith",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Music", "Biology", "English"]
   },
   {
@@ -608,7 +541,6 @@
     "lastName": "Knight",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Math", "Chemistry", "Science"]
   },
   {
@@ -617,7 +549,6 @@
     "lastName": "Thomas",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Biology", "History", "Music"]
   },
   {
@@ -626,7 +557,6 @@
     "lastName": "Johnson",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Biology", "Science", "Math"]
   },
   {
@@ -635,7 +565,6 @@
     "lastName": "Lewis",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Art", "Chemistry", "English", "Physical Education", "Music"]
   },
   {
@@ -644,7 +573,6 @@
     "lastName": "Peterson",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Music", "Art", "History", "Math", "Chemistry"]
   },
   {
@@ -653,7 +581,6 @@
     "lastName": "Griffith",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Science", "Computer Science", "History", "Art", "Chemistry"]
   },
   {
@@ -662,7 +589,6 @@
     "lastName": "Bradley",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Computer Science", "Science", "Music", "Math"]
   },
   {
@@ -671,7 +597,6 @@
     "lastName": "Williams",
     "age": 23,
     "gender": "Other",
-
     "courses": ["History", "Math", "Science"]
   },
   {
@@ -680,7 +605,6 @@
     "lastName": "Williamson",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Math", "Physical Education", "Chemistry"]
   },
   {
@@ -689,7 +613,6 @@
     "lastName": "Nelson",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Science", "English", "Biology", "Chemistry", "Music"]
   },
   {
@@ -698,7 +621,6 @@
     "lastName": "Tucker",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Physical Education", "Math", "English", "Computer Science"]
   },
   {
@@ -707,7 +629,6 @@
     "lastName": "Nelson",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Chemistry", "Biology", "Math"]
   },
   {
@@ -716,7 +637,6 @@
     "lastName": "Wilson",
     "age": 23,
     "gender": "Female",
-
     "courses": ["History", "Science", "Music"]
   },
   {
@@ -725,7 +645,6 @@
     "lastName": "Campbell",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Math", "Computer Science", "Art", "History"]
   },
   {
@@ -734,7 +653,6 @@
     "lastName": "Tucker",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Chemistry", "Art", "Computer Science", "English", "Biology"]
   },
   {
@@ -743,7 +661,6 @@
     "lastName": "Williams",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Science", "English", "Art"]
   },
   {
@@ -752,7 +669,6 @@
     "lastName": "Greene",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Biology", "Music", "Math"]
   },
   {
@@ -761,7 +677,6 @@
     "lastName": "Turner",
     "age": 19,
     "gender": "Female",
-
     "courses": ["History", "Art", "Biology", "Computer Science", "Math"]
   },
   {
@@ -770,7 +685,6 @@
     "lastName": "Taylor",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Music", "Biology", "History"]
   },
   {
@@ -779,7 +693,6 @@
     "lastName": "Murphy",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Computer Science", "English", "Chemistry"]
   },
   {
@@ -788,7 +701,6 @@
     "lastName": "Burgess",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Math", "History", "English", "Computer Science"]
   },
   {
@@ -797,7 +709,6 @@
     "lastName": "James",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Chemistry", "Physical Education", "Computer Science", "Science"]
   },
   {
@@ -806,7 +717,6 @@
     "lastName": "Mason",
     "age": 22,
     "gender": "Male",
-
     "courses": ["Science", "Music", "Computer Science", "Chemistry"]
   },
   {
@@ -815,7 +725,6 @@
     "lastName": "Drake",
     "age": 22,
     "gender": "Male",
-
     "courses": ["Science", "Music", "Math", "Computer Science"]
   },
   {
@@ -824,7 +733,6 @@
     "lastName": "Hensley",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Computer Science", "Science", "Math"]
   },
   {
@@ -833,7 +741,6 @@
     "lastName": "Smith",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Physical Education", "Chemistry", "Science", "History", "Math"]
   },
   {
@@ -842,7 +749,6 @@
     "lastName": "Atkins",
     "age": 18,
     "gender": "Other",
-
     "courses": ["English", "Chemistry", "Art", "Biology"]
   },
   {
@@ -851,7 +757,6 @@
     "lastName": "Berry",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Computer Science", "Math", "English"]
   },
   {
@@ -860,7 +765,6 @@
     "lastName": "Butler",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Physical Education", "History", "Biology", "Math", "Science"]
   },
   {
@@ -869,7 +773,6 @@
     "lastName": "Smith",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Math", "Physical Education", "Music", "History", "Biology"]
   },
   {
@@ -878,7 +781,6 @@
     "lastName": "Solis",
     "age": 21,
     "gender": "Other",
-
     "courses": ["History", "Computer Science", "Art", "Science", "Math"]
   },
   {
@@ -887,7 +789,6 @@
     "lastName": "Collier",
     "age": 21,
     "gender": "Female",
-
     "courses": ["English", "History", "Physical Education"]
   },
   {
@@ -896,7 +797,6 @@
     "lastName": "Davis",
     "age": 22,
     "gender": "Male",
-
     "courses": ["English", "Biology", "Computer Science", "Music", "Science"]
   },
   {
@@ -905,7 +805,6 @@
     "lastName": "Sanchez",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Computer Science", "Math", "English"]
   },
   {
@@ -914,7 +813,6 @@
     "lastName": "Warren",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Math", "Computer Science", "English"]
   },
   {
@@ -923,7 +821,6 @@
     "lastName": "Collins",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Physical Education", "Science", "History", "Music", "Math"]
   },
   {
@@ -932,7 +829,6 @@
     "lastName": "Cook",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Art", "English", "Math", "History", "Music"]
   },
   {
@@ -941,7 +837,6 @@
     "lastName": "Dixon",
     "age": 18,
     "gender": "Female",
-
     "courses": ["Physical Education", "Music", "Computer Science"]
   },
   {
@@ -950,7 +845,6 @@
     "lastName": "Hicks",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Chemistry", "Biology", "Physical Education", "History"]
   },
   {
@@ -959,7 +853,6 @@
     "lastName": "Bailey",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Math", "Art", "Music", "Physical Education"]
   },
   {
@@ -968,7 +861,6 @@
     "lastName": "Fuentes",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Math", "Biology", "Computer Science", "English", "History"]
   },
   {
@@ -977,7 +869,6 @@
     "lastName": "Young",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Computer Science", "Math", "Art", "Physical Education", "Science"]
   },
   {
@@ -986,7 +877,6 @@
     "lastName": "Gonzalez",
     "age": 22,
     "gender": "Male",
-
     "courses": ["Music", "Math", "English", "History", "Physical Education"]
   },
   {
@@ -995,7 +885,6 @@
     "lastName": "Wolf",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Math", "Computer Science", "Biology"]
   },
   {
@@ -1004,7 +893,6 @@
     "lastName": "Thompson",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Computer Science", "Science", "Art", "History", "Physical Education"]
   },
   {
@@ -1013,7 +901,6 @@
     "lastName": "Snyder",
     "age": 18,
     "gender": "Male",
-
     "courses": ["History", "Physical Education", "Music", "Math", "Computer Science"]
   },
   {
@@ -1022,7 +909,6 @@
     "lastName": "Wolf",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Music", "Computer Science", "Science", "History", "Chemistry"]
   },
   {
@@ -1031,7 +917,6 @@
     "lastName": "Glass",
     "age": 20,
     "gender": "Other",
-
     "courses": ["History", "Music", "Art", "Physical Education", "English"]
   },
   {
@@ -1040,7 +925,6 @@
     "lastName": "Reid",
     "age": 22,
     "gender": "Male",
-
     "courses": ["Music", "Art", "English"]
   },
   {
@@ -1049,7 +933,6 @@
     "lastName": "Lin",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Math", "Computer Science", "Physical Education", "Art", "Music"]
   },
   {
@@ -1058,7 +941,6 @@
     "lastName": "Hernandez",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Computer Science", "Chemistry", "History"]
   },
   {
@@ -1067,7 +949,6 @@
     "lastName": "Ramos",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Physical Education", "Science", "Computer Science", "Art"]
   },
   {
@@ -1076,7 +957,6 @@
     "lastName": "Hill",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Math", "Computer Science", "Physical Education"]
   },
   {
@@ -1085,7 +965,6 @@
     "lastName": "Romero",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Biology", "Science", "Physical Education", "History", "Art"]
   },
   {
@@ -1094,7 +973,6 @@
     "lastName": "Hayes",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Physical Education", "Music", "Computer Science", "Math", "Science"]
   },
   {
@@ -1103,7 +981,6 @@
     "lastName": "Decker",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Science", "History", "Chemistry"]
   },
   {
@@ -1112,7 +989,6 @@
     "lastName": "Lin",
     "age": 25,
     "gender": "Male",
-
     "courses": ["History", "Biology", "Physical Education", "Music"]
   },
   {
@@ -1121,7 +997,6 @@
     "lastName": "Gilbert",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Art", "Chemistry", "English"]
   },
   {
@@ -1130,7 +1005,6 @@
     "lastName": "Ford",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Biology", "Art", "Chemistry"]
   },
   {
@@ -1139,7 +1013,6 @@
     "lastName": "Conner",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Biology", "Science", "Math", "Computer Science"]
   },
   {
@@ -1148,7 +1021,6 @@
     "lastName": "Cole",
     "age": 21,
     "gender": "Male",
-
     "courses": ["English", "Biology", "Physical Education"]
   },
   {
@@ -1157,7 +1029,6 @@
     "lastName": "Pearson",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Chemistry", "Music", "History", "Math", "Science"]
   },
   {
@@ -1166,7 +1037,6 @@
     "lastName": "Alvarez",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Chemistry", "English", "Biology", "Science"]
   },
   {
@@ -1175,7 +1045,6 @@
     "lastName": "Brown",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Art", "Science", "Physical Education"]
   },
   {
@@ -1184,7 +1053,6 @@
     "lastName": "Nolan",
     "age": 18,
     "gender": "Female",
-
     "courses": ["English", "Physical Education", "Music", "Chemistry"]
   },
   {
@@ -1193,7 +1061,6 @@
     "lastName": "Klein",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Science", "Music", "Art", "Physical Education", "Biology"]
   },
   {
@@ -1202,7 +1069,6 @@
     "lastName": "Thompson",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Computer Science", "Math", "Chemistry"]
   },
   {
@@ -1211,7 +1077,6 @@
     "lastName": "Kim",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Chemistry", "Biology", "History", "English", "Computer Science"]
   },
   {
@@ -1220,7 +1085,6 @@
     "lastName": "Mills",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Biology", "Math", "Science"]
   },
   {
@@ -1229,7 +1093,6 @@
     "lastName": "Watson",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Biology", "Art", "English"]
   },
   {
@@ -1238,7 +1101,6 @@
     "lastName": "Ortiz",
     "age": 18,
     "gender": "Male",
-
     "courses": ["History", "Art", "Science", "Chemistry", "Physical Education"]
   },
   {
@@ -1247,7 +1109,6 @@
     "lastName": "Harper",
     "age": 20,
     "gender": "Male",
-
     "courses": ["English", "History", "Math", "Computer Science"]
   },
   {
@@ -1256,7 +1117,6 @@
     "lastName": "Holland",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Music", "History", "Art"]
   },
   {
@@ -1265,7 +1125,6 @@
     "lastName": "Davis",
     "age": 18,
     "gender": "Female",
-
     "courses": ["English", "Art", "Biology", "Music", "Computer Science"]
   },
   {
@@ -1274,7 +1133,6 @@
     "lastName": "Mitchell",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Music", "Computer Science", "Art"]
   },
   {
@@ -1283,7 +1141,6 @@
     "lastName": "Douglas",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Music", "Science", "History", "English"]
   },
   {
@@ -1292,7 +1149,6 @@
     "lastName": "Marks",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Biology", "Chemistry", "Math", "Physical Education", "Music"]
   },
   {
@@ -1301,7 +1157,6 @@
     "lastName": "Aguilar",
     "age": 18,
     "gender": "Female",
-
     "courses": ["Science", "Chemistry", "Physical Education", "History", "Math"]
   },
   {
@@ -1310,7 +1165,6 @@
     "lastName": "Bailey",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Computer Science", "History", "Math", "English", "Physical Education"]
   },
   {
@@ -1319,7 +1173,6 @@
     "lastName": "Hale",
     "age": 22,
     "gender": "Male",
-
     "courses": ["Science", "Art", "Chemistry"]
   },
   {
@@ -1328,7 +1181,6 @@
     "lastName": "Larson",
     "age": 20,
     "gender": "Other",
-
     "courses": ["English", "Music", "Math", "Computer Science"]
   },
   {
@@ -1337,7 +1189,6 @@
     "lastName": "Collins",
     "age": 23,
     "gender": "Male",
-
     "courses": ["Physical Education", "Computer Science", "History", "Science"]
   },
   {
@@ -1346,7 +1197,6 @@
     "lastName": "Conner",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Science", "English", "Biology", "Art", "Music"]
   },
   {
@@ -1355,7 +1205,6 @@
     "lastName": "Santiago",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Music", "English", "Science", "Math"]
   },
   {
@@ -1364,7 +1213,6 @@
     "lastName": "Rodgers",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Chemistry", "Math", "English"]
   },
   {
@@ -1373,7 +1221,6 @@
     "lastName": "Fox",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Music", "Biology", "Art", "Chemistry", "Science"]
   },
   {
@@ -1382,7 +1229,6 @@
     "lastName": "Henderson",
     "age": 20,
     "gender": "Other",
-
     "courses": ["English", "Physical Education", "Computer Science"]
   },
   {
@@ -1391,7 +1237,6 @@
     "lastName": "Cox",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Math", "History", "Biology"]
   },
   {
@@ -1400,7 +1245,6 @@
     "lastName": "Lewis",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Physical Education", "Chemistry", "English", "Art", "Science"]
   },
   {
@@ -1409,7 +1253,6 @@
     "lastName": "Tucker",
     "age": 24,
     "gender": "Male",
-
     "courses": ["History", "Biology", "Math", "Physical Education"]
   },
   {
@@ -1418,7 +1261,6 @@
     "lastName": "Taylor",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Physical Education", "Math", "Computer Science"]
   },
   {
@@ -1427,7 +1269,6 @@
     "lastName": "Richard",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Chemistry", "Art", "Computer Science", "English"]
   },
   {
@@ -1436,7 +1277,6 @@
     "lastName": "Wise",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Physical Education", "Math", "Art", "Music", "Biology"]
   },
   {
@@ -1445,7 +1285,6 @@
     "lastName": "Stephenson",
     "age": 22,
     "gender": "Female",
-
     "courses": ["English", "Music", "Art", "History", "Chemistry"]
   },
   {
@@ -1454,7 +1293,6 @@
     "lastName": "Rogers",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Science", "Chemistry", "English", "Music"]
   },
   {
@@ -1463,7 +1301,6 @@
     "lastName": "Anderson",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Science", "Biology", "English"]
   },
   {
@@ -1472,7 +1309,6 @@
     "lastName": "Martin",
     "age": 21,
     "gender": "Male",
-
     "courses": ["History", "English", "Art", "Physical Education"]
   },
   {
@@ -1481,7 +1317,6 @@
     "lastName": "Wise",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Computer Science", "Art", "Chemistry", "Music", "Physical Education"]
   },
   {
@@ -1490,7 +1325,6 @@
     "lastName": "Martin",
     "age": 24,
     "gender": "Male",
-
     "courses": ["English", "Science", "Physical Education", "History", "Computer Science"]
   },
   {
@@ -1499,7 +1333,6 @@
     "lastName": "Jenkins",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Music", "English", "Biology", "Science", "Physical Education"]
   },
   {
@@ -1508,7 +1341,6 @@
     "lastName": "Young",
     "age": 18,
     "gender": "Female",
-
     "courses": ["History", "Music", "English"]
   },
   {
@@ -1517,7 +1349,6 @@
     "lastName": "Mitchell",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Art", "Physical Education", "Math"]
   },
   {
@@ -1526,7 +1357,6 @@
     "lastName": "Cole",
     "age": 18,
     "gender": "Female",
-
     "courses": ["Math", "Physical Education", "History"]
   },
   {
@@ -1535,7 +1365,6 @@
     "lastName": "Collins",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Music", "Computer Science", "Science", "Math"]
   },
   {
@@ -1544,7 +1373,6 @@
     "lastName": "Harrison",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Math", "Art", "Music"]
   },
   {
@@ -1553,7 +1381,6 @@
     "lastName": "Richardson",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Computer Science", "History", "Music"]
   },
   {
@@ -1562,7 +1389,6 @@
     "lastName": "Joyce",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Computer Science", "Science", "Biology"]
   },
   {
@@ -1571,7 +1397,6 @@
     "lastName": "Campbell",
     "age": 20,
     "gender": "Other",
-
     "courses": ["History", "Chemistry", "Math"]
   },
   {
@@ -1580,7 +1405,6 @@
     "lastName": "Rose",
     "age": 23,
     "gender": "Male",
-
     "courses": ["Biology", "English", "Computer Science"]
   },
   {
@@ -1589,7 +1413,6 @@
     "lastName": "Montoya",
     "age": 22,
     "gender": "Female",
-
     "courses": ["History", "Computer Science", "Music", "Science", "English"]
   },
   {
@@ -1598,7 +1421,6 @@
     "lastName": "Taylor",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Computer Science", "History", "Physical Education", "English"]
   },
   {
@@ -1607,7 +1429,6 @@
     "lastName": "Davidson",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Physical Education", "Art", "Science", "English", "Math"]
   },
   {
@@ -1616,7 +1437,6 @@
     "lastName": "Spencer",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Physical Education", "Math", "Science"]
   },
   {
@@ -1625,7 +1445,6 @@
     "lastName": "Singleton",
     "age": 23,
     "gender": "Male",
-
     "courses": ["English", "Art", "History", "Physical Education"]
   },
   {
@@ -1634,7 +1453,6 @@
     "lastName": "Mitchell",
     "age": 22,
     "gender": "Male",
-
     "courses": ["Computer Science", "Chemistry", "Physical Education", "Art"]
   },
   {
@@ -1643,7 +1461,6 @@
     "lastName": "Nelson",
     "age": 21,
     "gender": "Other",
-
     "courses": ["Biology", "English", "Art", "Music"]
   },
   {
@@ -1652,7 +1469,6 @@
     "lastName": "Hernandez",
     "age": 18,
     "gender": "Female",
-
     "courses": ["Physical Education", "Math", "Science"]
   },
   {
@@ -1661,7 +1477,6 @@
     "lastName": "Potts",
     "age": 24,
     "gender": "Other",
-
     "courses": ["History", "Chemistry", "Art"]
   },
   {
@@ -1670,7 +1485,6 @@
     "lastName": "Hayes",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Science", "Computer Science", "History", "Music"]
   },
   {
@@ -1679,7 +1493,6 @@
     "lastName": "Johnson",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Chemistry", "History", "Art", "Science"]
   },
   {
@@ -1688,7 +1501,6 @@
     "lastName": "Shaw",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Science", "Physical Education", "Computer Science", "History"]
   },
   {
@@ -1697,7 +1509,6 @@
     "lastName": "Vang",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Math", "History", "Physical Education"]
   },
   {
@@ -1706,7 +1517,6 @@
     "lastName": "Johnson",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Biology", "English", "Art", "Chemistry"]
   },
   {
@@ -1715,7 +1525,6 @@
     "lastName": "Combs",
     "age": 20,
     "gender": "Male",
-
     "courses": ["History", "Math", "English", "Chemistry"]
   },
   {
@@ -1724,7 +1533,6 @@
     "lastName": "Moody",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Science", "Computer Science", "Biology"]
   },
   {
@@ -1733,7 +1541,6 @@
     "lastName": "Mitchell",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Physical Education", "Science", "Computer Science", "Biology", "History"]
   },
   {
@@ -1742,7 +1549,6 @@
     "lastName": "Horton",
     "age": 18,
     "gender": "Female",
-
     "courses": ["English", "Art", "Science", "Biology", "Chemistry"]
   },
   {
@@ -1751,7 +1557,6 @@
     "lastName": "Thornton",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Computer Science", "English", "Chemistry", "Biology", "Music"]
   },
   {
@@ -1760,7 +1565,6 @@
     "lastName": "Smith",
     "age": 21,
     "gender": "Female",
-
     "courses": ["English", "Science", "Art", "Physical Education", "Computer Science"]
   },
   {
@@ -1769,7 +1573,6 @@
     "lastName": "Scott",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Science", "Computer Science", "Music"]
   },
   {
@@ -1778,7 +1581,6 @@
     "lastName": "Dunn",
     "age": 23,
     "gender": "Other",
-
     "courses": ["History", "Science", "Physical Education", "Art"]
   },
   {
@@ -1787,7 +1589,6 @@
     "lastName": "Rose",
     "age": 19,
     "gender": "Female",
-
     "courses": ["English", "Math", "Physical Education", "Computer Science"]
   },
   {
@@ -1796,7 +1597,6 @@
     "lastName": "Roberts",
     "age": 23,
     "gender": "Male",
-
     "courses": ["Art", "Math", "Biology", "Physical Education"]
   },
   {
@@ -1805,7 +1605,6 @@
     "lastName": "Williams",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Art", "English", "Science", "Music"]
   },
   {
@@ -1814,7 +1613,6 @@
     "lastName": "Bauer",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Computer Science", "History", "English", "Science", "Music"]
   },
   {
@@ -1823,7 +1621,6 @@
     "lastName": "Rodriguez",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Biology", "Chemistry", "Computer Science", "Math", "English"]
   },
   {
@@ -1832,7 +1629,6 @@
     "lastName": "Carlson",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Physical Education", "History", "Chemistry", "Biology"]
   },
   {
@@ -1841,7 +1637,6 @@
     "lastName": "Robertson",
     "age": 25,
     "gender": "Female",
-
     "courses": ["History", "Art", "Math", "Science", "English"]
   },
   {
@@ -1850,7 +1645,6 @@
     "lastName": "Thomas",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Music", "History", "English", "Science"]
   },
   {
@@ -1859,7 +1653,6 @@
     "lastName": "Mendez",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Music", "History", "Science", "English", "Math"]
   },
   {
@@ -1868,7 +1661,6 @@
     "lastName": "Butler",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Computer Science", "Biology", "Music"]
   },
   {
@@ -1877,7 +1669,6 @@
     "lastName": "Miller",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Science", "Music", "English"]
   },
   {
@@ -1886,7 +1677,6 @@
     "lastName": "Jones",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Computer Science", "Chemistry", "History"]
   },
   {
@@ -1895,7 +1685,6 @@
     "lastName": "Romero",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Computer Science", "Chemistry", "Biology", "Math", "History"]
   },
   {
@@ -1904,7 +1693,6 @@
     "lastName": "Spencer",
     "age": 20,
     "gender": "Female",
-
     "courses": ["English", "Science", "Physical Education", "Chemistry"]
   },
   {
@@ -1913,7 +1701,6 @@
     "lastName": "Harrison",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Art", "History", "Music", "Physical Education", "Math"]
   },
   {
@@ -1922,7 +1709,6 @@
     "lastName": "Zavala",
     "age": 20,
     "gender": "Female",
-
     "courses": ["History", "Math", "Biology", "English"]
   },
   {
@@ -1931,7 +1717,6 @@
     "lastName": "Smith",
     "age": 20,
     "gender": "Other",
-
     "courses": ["English", "Math", "History", "Biology"]
   },
   {
@@ -1940,7 +1725,6 @@
     "lastName": "Cooper",
     "age": 23,
     "gender": "Male",
-
     "courses": ["History", "Biology", "Art", "Science", "Physical Education"]
   },
   {
@@ -1949,7 +1733,6 @@
     "lastName": "Fuller",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Science", "Physical Education", "History"]
   },
   {
@@ -1958,7 +1741,6 @@
     "lastName": "Moss",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Science", "History", "Computer Science", "Math", "Biology"]
   },
   {
@@ -1967,7 +1749,6 @@
     "lastName": "Williams",
     "age": 19,
     "gender": "Other",
-
     "courses": ["English", "Physical Education", "Art"]
   },
   {
@@ -1976,7 +1757,6 @@
     "lastName": "Li",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Chemistry", "Biology", "Music", "Science"]
   },
   {
@@ -1985,7 +1765,6 @@
     "lastName": "Maxwell",
     "age": 22,
     "gender": "Other",
-
     "courses": ["English", "Science", "History", "Computer Science"]
   },
   {
@@ -1994,7 +1773,6 @@
     "lastName": "Dominguez",
     "age": 23,
     "gender": "Other",
-
     "courses": ["English", "Biology", "Physical Education", "Music"]
   },
   {
@@ -2003,7 +1781,6 @@
     "lastName": "Cain",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Science", "English", "History", "Music", "Computer Science"]
   },
   {
@@ -2012,7 +1789,6 @@
     "lastName": "Parsons",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Science", "Math", "History", "Music"]
   },
   {
@@ -2021,7 +1797,6 @@
     "lastName": "Carter",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Biology", "History", "Art", "Physical Education"]
   },
   {
@@ -2030,7 +1805,6 @@
     "lastName": "Gonzalez",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Math", "Computer Science", "Chemistry", "Art", "Science"]
   },
   {
@@ -2039,7 +1813,6 @@
     "lastName": "Mahoney",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Biology", "Physical Education", "Art", "English"]
   },
   {
@@ -2048,7 +1821,6 @@
     "lastName": "Hays",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Physical Education", "Math", "History", "Music", "Biology"]
   },
   {
@@ -2057,7 +1829,6 @@
     "lastName": "King",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Music", "History", "Math", "Biology"]
   },
   {
@@ -2066,7 +1837,6 @@
     "lastName": "Lee",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Music", "English", "Computer Science", "Physical Education", "Art"]
   },
   {
@@ -2075,7 +1845,6 @@
     "lastName": "Norman",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Music", "Science", "History", "English", "Computer Science"]
   },
   {
@@ -2084,7 +1853,6 @@
     "lastName": "Rivera",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Art", "Biology", "Chemistry", "Music", "History"]
   },
   {
@@ -2093,7 +1861,6 @@
     "lastName": "Richardson",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Math", "Computer Science", "Music", "Science", "Chemistry"]
   },
   {
@@ -2102,7 +1869,6 @@
     "lastName": "Paul",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Chemistry", "Biology", "Art", "Math", "Computer Science"]
   },
   {
@@ -2111,7 +1877,6 @@
     "lastName": "Hughes",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Biology", "Physical Education", "Science", "Art", "Math"]
   },
   {
@@ -2120,7 +1885,6 @@
     "lastName": "Crawford",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Art", "Music", "Biology", "Chemistry", "History"]
   },
   {
@@ -2129,7 +1893,6 @@
     "lastName": "Glass",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Biology", "Computer Science", "Physical Education", "Science", "Math"]
   },
   {
@@ -2138,7 +1901,6 @@
     "lastName": "Owen",
     "age": 18,
     "gender": "Female",
-
     "courses": ["English", "Math", "History", "Biology"]
   },
   {
@@ -2147,7 +1909,6 @@
     "lastName": "Miller",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Physical Education", "English", "Chemistry", "Art", "Biology"]
   },
   {
@@ -2156,7 +1917,6 @@
     "lastName": "Short",
     "age": 24,
     "gender": "Male",
-
     "courses": ["History", "Art", "Chemistry", "Math"]
   },
   {
@@ -2165,7 +1925,6 @@
     "lastName": "Morris",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Science", "Music", "Biology"]
   },
   {
@@ -2174,7 +1933,6 @@
     "lastName": "Guerrero",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Biology", "Art", "Chemistry"]
   },
   {
@@ -2183,7 +1941,6 @@
     "lastName": "Morrison",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Chemistry", "English", "Biology", "Science"]
   },
   {
@@ -2192,7 +1949,6 @@
     "lastName": "Norris",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Math", "History", "Art"]
   },
   {
@@ -2201,7 +1957,6 @@
     "lastName": "Williams",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Science", "Art", "English"]
   },
   {
@@ -2210,7 +1965,6 @@
     "lastName": "Gomez",
     "age": 21,
     "gender": "Other",
-
     "courses": ["Math", "Art", "History"]
   },
   {
@@ -2219,7 +1973,6 @@
     "lastName": "Hill",
     "age": 18,
     "gender": "Female",
-
     "courses": ["English", "History", "Science", "Music", "Biology"]
   },
   {
@@ -2228,7 +1981,6 @@
     "lastName": "Gould",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Physical Education", "Chemistry", "History"]
   },
   {
@@ -2237,7 +1989,6 @@
     "lastName": "Walsh",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Physical Education", "History", "Art", "Chemistry", "Music"]
   },
   {
@@ -2246,7 +1997,6 @@
     "lastName": "Owen",
     "age": 25,
     "gender": "Female",
-
     "courses": ["History", "Math", "English", "Computer Science", "Music"]
   },
   {
@@ -2255,7 +2005,6 @@
     "lastName": "Cisneros",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Chemistry", "Music", "Science", "Computer Science"]
   },
   {
@@ -2264,7 +2013,6 @@
     "lastName": "Lawson",
     "age": 22,
     "gender": "Male",
-
     "courses": ["Physical Education", "Science", "Biology", "Math"]
   },
   {
@@ -2273,7 +2021,6 @@
     "lastName": "Johnson",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Biology", "History", "Computer Science", "Art"]
   },
   {
@@ -2282,7 +2029,6 @@
     "lastName": "Osborne",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Biology", "History", "Music"]
   },
   {
@@ -2291,7 +2037,6 @@
     "lastName": "Reyes",
     "age": 21,
     "gender": "Female",
-
     "courses": ["History", "Biology", "English", "Physical Education", "Art"]
   },
   {
@@ -2300,7 +2045,6 @@
     "lastName": "Jacobs",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Chemistry", "Science", "Art", "History"]
   },
   {
@@ -2309,7 +2053,6 @@
     "lastName": "Rush",
     "age": 18,
     "gender": "Female",
-
     "courses": ["Music", "Chemistry", "Computer Science", "English"]
   },
   {
@@ -2318,7 +2061,6 @@
     "lastName": "Hines",
     "age": 19,
     "gender": "Female",
-
     "courses": ["English", "Science", "Music", "Math"]
   },
   {
@@ -2327,7 +2069,6 @@
     "lastName": "Moreno",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Physical Education", "Chemistry", "Biology", "Math", "Music"]
   },
   {
@@ -2336,7 +2077,6 @@
     "lastName": "Banks",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Music", "Art", "Science"]
   },
   {
@@ -2345,7 +2085,6 @@
     "lastName": "Wilson",
     "age": 18,
     "gender": "Female",
-
     "courses": ["History", "Music", "Biology", "English"]
   },
   {
@@ -2354,7 +2093,6 @@
     "lastName": "Porter",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Math", "Computer Science", "Art", "Physical Education", "Chemistry"]
   },
   {
@@ -2363,7 +2101,6 @@
     "lastName": "Hoffman",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Biology", "Science", "Chemistry", "Math"]
   },
   {
@@ -2372,7 +2109,6 @@
     "lastName": "Green",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Chemistry", "English", "Art"]
   },
   {
@@ -2381,7 +2117,6 @@
     "lastName": "Davies",
     "age": 21,
     "gender": "Male",
-
     "courses": ["History", "Physical Education", "Biology"]
   },
   {
@@ -2390,7 +2125,6 @@
     "lastName": "Hendricks",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Science", "History", "Math"]
   },
   {
@@ -2399,7 +2133,6 @@
     "lastName": "Martinez",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Chemistry", "Art", "Music", "Physical Education", "Biology"]
   },
   {
@@ -2408,7 +2141,6 @@
     "lastName": "Hayes",
     "age": 25,
     "gender": "Male",
-
     "courses": ["English", "Chemistry", "Biology", "Math", "History"]
   },
   {
@@ -2417,7 +2149,6 @@
     "lastName": "Wallace",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Chemistry", "English", "Physical Education"]
   },
   {
@@ -2426,7 +2157,6 @@
     "lastName": "Fleming",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Science", "Art", "Music", "English", "Physical Education"]
   },
   {
@@ -2435,7 +2165,6 @@
     "lastName": "Flores",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Chemistry", "History", "Art"]
   },
   {
@@ -2444,7 +2173,6 @@
     "lastName": "Brown",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Chemistry", "English", "Music"]
   },
   {
@@ -2453,7 +2181,6 @@
     "lastName": "Vance",
     "age": 20,
     "gender": "Male",
-
     "courses": ["History", "Biology", "Physical Education", "English", "Art"]
   },
   {
@@ -2462,7 +2189,6 @@
     "lastName": "Joseph",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Computer Science", "Physical Education", "History", "English"]
   },
   {
@@ -2471,7 +2197,6 @@
     "lastName": "Little",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Science", "Biology", "Physical Education", "Chemistry"]
   },
   {
@@ -2480,7 +2205,6 @@
     "lastName": "Hicks",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Math", "Physical Education", "Biology", "Chemistry", "Music"]
   },
   {
@@ -2489,7 +2213,6 @@
     "lastName": "Harris",
     "age": 25,
     "gender": "Female",
-
     "courses": ["English", "Biology", "Art", "Math"]
   },
   {
@@ -2498,7 +2221,6 @@
     "lastName": "Tyler",
     "age": 18,
     "gender": "Female",
-
     "courses": ["English", "Science", "Biology"]
   },
   {
@@ -2507,7 +2229,6 @@
     "lastName": "Spencer",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Science", "Music", "Computer Science", "History"]
   },
   {
@@ -2516,7 +2237,6 @@
     "lastName": "Lara",
     "age": 23,
     "gender": "Male",
-
     "courses": ["Computer Science", "English", "Music"]
   },
   {
@@ -2525,7 +2245,6 @@
     "lastName": "Salazar",
     "age": 24,
     "gender": "Other",
-
     "courses": ["English", "Math", "Biology", "Science"]
   },
   {
@@ -2534,7 +2253,6 @@
     "lastName": "Parker",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Art", "English", "Computer Science", "Math", "History"]
   },
   {
@@ -2543,7 +2261,6 @@
     "lastName": "Higgins",
     "age": 18,
     "gender": "Female",
-
     "courses": ["English", "Art", "Biology", "History", "Math"]
   },
   {
@@ -2552,7 +2269,6 @@
     "lastName": "Hammond",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Computer Science", "Music", "Physical Education", "History", "Chemistry"]
   },
   {
@@ -2561,7 +2277,6 @@
     "lastName": "Jones",
     "age": 20,
     "gender": "Female",
-
     "courses": ["English", "Science", "Math", "Biology"]
   },
   {
@@ -2570,7 +2285,6 @@
     "lastName": "Day",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Physical Education", "Computer Science", "Math", "Music", "Art"]
   },
   {
@@ -2579,7 +2293,6 @@
     "lastName": "Frazier",
     "age": 19,
     "gender": "Male",
-
     "courses": ["English", "Biology", "History", "Computer Science"]
   },
   {
@@ -2588,7 +2301,6 @@
     "lastName": "Humphrey",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Computer Science", "Music", "History"]
   },
   {
@@ -2597,7 +2309,6 @@
     "lastName": "Bowman",
     "age": 21,
     "gender": "Other",
-
     "courses": ["Computer Science", "Art", "Biology", "History"]
   },
   {
@@ -2606,7 +2317,6 @@
     "lastName": "Burch",
     "age": 25,
     "gender": "Other",
-
     "courses": ["English", "History", "Science"]
   },
   {
@@ -2615,7 +2325,6 @@
     "lastName": "Bartlett",
     "age": 21,
     "gender": "Other",
-
     "courses": ["English", "Math", "Computer Science", "Music", "History"]
   },
   {
@@ -2624,7 +2333,6 @@
     "lastName": "Martinez",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Physical Education", "History", "Computer Science", "Math", "English"]
   },
   {
@@ -2633,7 +2341,6 @@
     "lastName": "Martin",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Physical Education", "History", "Art"]
   },
   {
@@ -2642,7 +2349,6 @@
     "lastName": "Fletcher",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Math", "Computer Science", "English", "Chemistry"]
   },
   {
@@ -2651,7 +2357,6 @@
     "lastName": "Everett",
     "age": 19,
     "gender": "Female",
-
     "courses": ["History", "Math", "Biology"]
   },
   {
@@ -2660,7 +2365,6 @@
     "lastName": "Singleton",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Physical Education", "History", "Art"]
   },
   {
@@ -2669,7 +2373,6 @@
     "lastName": "Reid",
     "age": 25,
     "gender": "Other",
-
     "courses": ["English", "Biology", "Science"]
   },
   {
@@ -2678,7 +2381,6 @@
     "lastName": "Martinez",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Chemistry", "English", "History", "Physical Education", "Biology"]
   },
   {
@@ -2687,7 +2389,6 @@
     "lastName": "Ferguson",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Art", "Science", "History"]
   },
   {
@@ -2696,7 +2397,6 @@
     "lastName": "Jackson",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Math", "Computer Science", "Physical Education", "Biology"]
   },
   {
@@ -2705,7 +2405,6 @@
     "lastName": "Moore",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Art", "Math", "Music", "Chemistry"]
   },
   {
@@ -2714,7 +2413,6 @@
     "lastName": "Le",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Physical Education", "Science", "Chemistry", "Computer Science"]
   },
   {
@@ -2723,7 +2421,6 @@
     "lastName": "Kirby",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Computer Science", "English", "Math", "Biology"]
   },
   {
@@ -2732,7 +2429,6 @@
     "lastName": "Bryan",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Math", "Computer Science", "Biology", "Art", "English"]
   },
   {
@@ -2741,7 +2437,6 @@
     "lastName": "Williams",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Biology", "Physical Education", "Science", "History"]
   },
   {
@@ -2750,7 +2445,6 @@
     "lastName": "Ray",
     "age": 22,
     "gender": "Female",
-
     "courses": ["English", "Biology", "Chemistry", "Physical Education"]
   },
   {
@@ -2759,7 +2453,6 @@
     "lastName": "Wang",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Physical Education", "Chemistry", "History"]
   },
   {
@@ -2768,7 +2461,6 @@
     "lastName": "Fowler",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Science", "Math", "Art"]
   },
   {
@@ -2777,7 +2469,6 @@
     "lastName": "Burton",
     "age": 23,
     "gender": "Male",
-
     "courses": ["Music", "Physical Education", "History", "Biology", "Art"]
   },
   {
@@ -2786,7 +2477,6 @@
     "lastName": "Frye",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Physical Education", "Math", "Biology", "English"]
   },
   {
@@ -2795,7 +2485,6 @@
     "lastName": "Ballard",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Computer Science", "History", "Chemistry"]
   },
   {
@@ -2804,7 +2493,6 @@
     "lastName": "Evans",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Art", "Computer Science", "Physical Education", "Biology", "History"]
   },
   {
@@ -2813,7 +2501,6 @@
     "lastName": "Brown",
     "age": 23,
     "gender": "Male",
-
     "courses": ["History", "English", "Art", "Computer Science", "Music"]
   },
   {
@@ -2822,7 +2509,6 @@
     "lastName": "Washington",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Science", "History", "Art", "Physical Education"]
   },
   {
@@ -2831,7 +2517,6 @@
     "lastName": "Lawson",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Physical Education", "Music", "Computer Science", "Math", "English"]
   },
   {
@@ -2840,7 +2525,6 @@
     "lastName": "Higgins",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Computer Science", "Chemistry", "History", "Science", "Biology"]
   },
   {
@@ -2849,7 +2533,6 @@
     "lastName": "Valencia",
     "age": 25,
     "gender": "Male",
-
     "courses": ["English", "History", "Physical Education", "Computer Science", "Science"]
   },
   {
@@ -2858,7 +2541,6 @@
     "lastName": "Anderson",
     "age": 19,
     "gender": "Male",
-
     "courses": ["History", "Music", "Art", "Science", "Computer Science"]
   },
   {
@@ -2867,7 +2549,6 @@
     "lastName": "Hoffman",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Computer Science", "English", "History", "Chemistry"]
   },
   {
@@ -2876,7 +2557,6 @@
     "lastName": "Owens",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Math", "Art", "English", "Music"]
   },
   {
@@ -2885,7 +2565,6 @@
     "lastName": "Wright",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Physical Education", "English", "Computer Science", "Art"]
   },
   {
@@ -2894,7 +2573,6 @@
     "lastName": "Roberts",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Physical Education", "Chemistry", "Art", "Science", "Computer Science"]
   },
   {
@@ -2903,7 +2581,6 @@
     "lastName": "Gilbert",
     "age": 18,
     "gender": "Female",
-
     "courses": ["Chemistry", "Art", "History", "Science", "Biology"]
   },
   {
@@ -2912,7 +2589,6 @@
     "lastName": "Grimes",
     "age": 18,
     "gender": "Female",
-
     "courses": ["English", "Art", "Math", "Music", "Chemistry"]
   },
   {
@@ -2921,7 +2597,6 @@
     "lastName": "Murphy",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Computer Science", "English", "Math", "Art"]
   },
   {
@@ -2930,7 +2605,6 @@
     "lastName": "Edwards",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Music", "Biology", "History"]
   },
   {
@@ -2939,7 +2613,6 @@
     "lastName": "Jimenez",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Chemistry", "Physical Education", "English"]
   },
   {
@@ -2948,7 +2621,6 @@
     "lastName": "Jimenez",
     "age": 20,
     "gender": "Female",
-
     "courses": ["History", "Physical Education", "Math", "Art"]
   },
   {
@@ -2957,7 +2629,6 @@
     "lastName": "Johnson",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Computer Science", "English", "History", "Science"]
   },
   {
@@ -2966,7 +2637,6 @@
     "lastName": "Wagner",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Math", "Science", "English"]
   },
   {
@@ -2975,7 +2645,6 @@
     "lastName": "Lewis",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Art", "English", "Computer Science"]
   },
   {
@@ -2984,7 +2653,6 @@
     "lastName": "Williams",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Chemistry", "Music", "Computer Science", "Biology"]
   },
   {
@@ -2993,7 +2661,6 @@
     "lastName": "Khan",
     "age": 22,
     "gender": "Other",
-
     "courses": ["English", "Computer Science", "Chemistry"]
   },
   {
@@ -3002,7 +2669,6 @@
     "lastName": "Ruiz",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Art", "English", "Computer Science", "Science", "History"]
   },
   {
@@ -3011,7 +2677,6 @@
     "lastName": "Boone",
     "age": 24,
     "gender": "Other",
-
     "courses": ["History", "Math", "Science", "Physical Education"]
   },
   {
@@ -3020,7 +2685,6 @@
     "lastName": "Khan",
     "age": 18,
     "gender": "Other",
-
     "courses": ["English", "Biology", "Math"]
   },
   {
@@ -3029,7 +2693,6 @@
     "lastName": "Gallagher",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Science", "History", "Art", "Math", "Music"]
   },
   {
@@ -3038,7 +2701,6 @@
     "lastName": "Morales",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Art", "Chemistry", "Science", "English", "Computer Science"]
   },
   {
@@ -3047,7 +2709,6 @@
     "lastName": "Lee",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Science", "Math", "Physical Education", "History"]
   },
   {
@@ -3056,7 +2717,6 @@
     "lastName": "Jones",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Art", "Biology", "Math", "Physical Education", "History"]
   },
   {
@@ -3065,7 +2725,6 @@
     "lastName": "Duran",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Chemistry", "History", "English"]
   },
   {
@@ -3074,7 +2733,6 @@
     "lastName": "Hays",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Chemistry", "History", "English", "Computer Science", "Physical Education"]
   },
   {
@@ -3083,7 +2741,6 @@
     "lastName": "Wilson",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Computer Science", "Chemistry", "Biology"]
   },
   {
@@ -3092,7 +2749,6 @@
     "lastName": "Long",
     "age": 18,
     "gender": "Other",
-
     "courses": ["History", "Chemistry", "English", "Art", "Music"]
   },
   {
@@ -3101,7 +2757,6 @@
     "lastName": "Morgan",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Science", "Biology", "Art", "Physical Education"]
   },
   {
@@ -3110,7 +2765,6 @@
     "lastName": "Fischer",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Science", "Music", "Math", "Physical Education", "Computer Science"]
   },
   {
@@ -3119,7 +2773,6 @@
     "lastName": "Hicks",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Math", "Physical Education", "Music"]
   },
   {
@@ -3128,7 +2781,6 @@
     "lastName": "Williams",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Chemistry", "Science", "Math", "Computer Science"]
   },
   {
@@ -3137,7 +2789,6 @@
     "lastName": "Cook",
     "age": 22,
     "gender": "Male",
-
     "courses": ["Math", "Music", "Science", "Physical Education", "History"]
   },
   {
@@ -3146,7 +2797,6 @@
     "lastName": "Bryant",
     "age": 19,
     "gender": "Other",
-
     "courses": ["History", "Biology", "Physical Education", "Chemistry"]
   },
   {
@@ -3155,7 +2805,6 @@
     "lastName": "Robertson",
     "age": 24,
     "gender": "Male",
-
     "courses": ["History", "Music", "Math", "Art"]
   },
   {
@@ -3164,7 +2813,6 @@
     "lastName": "Austin",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Music", "History", "Math", "Science"]
   },
   {
@@ -3173,7 +2821,6 @@
     "lastName": "Ewing",
     "age": 19,
     "gender": "Female",
-
     "courses": ["History", "Science", "Computer Science", "Biology"]
   },
   {
@@ -3182,7 +2829,6 @@
     "lastName": "Evans",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Chemistry", "English", "Music"]
   },
   {
@@ -3191,7 +2837,6 @@
     "lastName": "Clayton",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Physical Education", "Math", "Art", "History"]
   },
   {
@@ -3200,7 +2845,6 @@
     "lastName": "Erickson",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Physical Education", "Art", "Science", "Math"]
   },
   {
@@ -3209,7 +2853,6 @@
     "lastName": "Cabrera",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Science", "History", "Computer Science", "Art"]
   },
   {
@@ -3218,7 +2861,6 @@
     "lastName": "Nunez",
     "age": 22,
     "gender": "Other",
-
     "courses": ["History", "Chemistry", "Science", "Computer Science", "Biology"]
   },
   {
@@ -3227,7 +2869,6 @@
     "lastName": "Silva",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Music", "English", "Science"]
   },
   {
@@ -3236,7 +2877,6 @@
     "lastName": "Swanson",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Chemistry", "History", "Science"]
   },
   {
@@ -3245,7 +2885,6 @@
     "lastName": "Johnson",
     "age": 23,
     "gender": "Male",
-
     "courses": ["Physical Education", "Art", "Computer Science", "Chemistry", "Science"]
   },
   {
@@ -3254,7 +2893,6 @@
     "lastName": "Coffey",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Chemistry", "History", "English", "Music"]
   },
   {
@@ -3263,7 +2901,6 @@
     "lastName": "Parsons",
     "age": 20,
     "gender": "Other",
-
     "courses": ["English", "Math", "History"]
   },
   {
@@ -3272,7 +2909,6 @@
     "lastName": "Griffith",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Art", "Chemistry", "Biology", "Computer Science", "Science"]
   },
   {
@@ -3281,7 +2917,6 @@
     "lastName": "Jackson",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Music", "Math", "English"]
   },
   {
@@ -3290,7 +2925,6 @@
     "lastName": "Harvey",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Science", "Math", "English"]
   },
   {
@@ -3299,7 +2933,6 @@
     "lastName": "Hernandez",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Physical Education", "Art", "Biology"]
   },
   {
@@ -3308,7 +2941,6 @@
     "lastName": "Johnson",
     "age": 18,
     "gender": "Female",
-
     "courses": ["English", "Biology", "Art"]
   },
   {
@@ -3317,7 +2949,6 @@
     "lastName": "Rodriguez",
     "age": 18,
     "gender": "Female",
-
     "courses": ["Physical Education", "Computer Science", "Math"]
   },
   {
@@ -3326,7 +2957,6 @@
     "lastName": "Edwards",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Computer Science", "Math", "Music", "History"]
   },
   {
@@ -3335,7 +2965,6 @@
     "lastName": "Vaughn",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Science", "Physical Education", "History", "Music", "Biology"]
   },
   {
@@ -3344,7 +2973,6 @@
     "lastName": "Hampton",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Math", "Art", "Science"]
   },
   {
@@ -3353,7 +2981,6 @@
     "lastName": "Salas",
     "age": 23,
     "gender": "Female",
-
     "courses": ["History", "Biology", "English", "Science"]
   },
   {
@@ -3362,7 +2989,6 @@
     "lastName": "Brown",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Science", "English", "Math"]
   },
   {
@@ -3371,7 +2997,6 @@
     "lastName": "Clark",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Art", "Chemistry", "Science"]
   },
   {
@@ -3380,7 +3005,6 @@
     "lastName": "Bates",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Chemistry", "Math", "Computer Science", "Music"]
   },
   {
@@ -3389,7 +3013,6 @@
     "lastName": "Edwards",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Computer Science", "Chemistry", "English", "Art", "Biology"]
   },
   {
@@ -3398,7 +3021,6 @@
     "lastName": "Barr",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Science", "Physical Education", "Chemistry", "History", "Music"]
   },
   {
@@ -3407,7 +3029,6 @@
     "lastName": "Gomez",
     "age": 22,
     "gender": "Male",
-
     "courses": ["Science", "Art", "History", "Physical Education", "Music"]
   },
   {
@@ -3416,7 +3037,6 @@
     "lastName": "Le",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Music", "Science", "Biology", "Math", "Art"]
   },
   {
@@ -3425,7 +3045,6 @@
     "lastName": "Steele",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Physical Education", "Chemistry", "Art", "History", "Science"]
   },
   {
@@ -3434,7 +3053,6 @@
     "lastName": "Lee",
     "age": 20,
     "gender": "Female",
-
     "courses": ["English", "Computer Science", "Music"]
   },
   {
@@ -3443,7 +3061,6 @@
     "lastName": "Grant",
     "age": 23,
     "gender": "Other",
-
     "courses": ["History", "Music", "English", "Chemistry"]
   },
   {
@@ -3452,7 +3069,6 @@
     "lastName": "Dudley",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Computer Science", "English", "Art"]
   },
   {
@@ -3461,7 +3077,6 @@
     "lastName": "Roberts",
     "age": 18,
     "gender": "Female",
-
     "courses": ["History", "Chemistry", "Computer Science", "Music", "Math"]
   },
   {
@@ -3470,7 +3085,6 @@
     "lastName": "Bush",
     "age": 25,
     "gender": "Male",
-
     "courses": ["History", "English", "Physical Education", "Computer Science", "Chemistry"]
   },
   {
@@ -3479,7 +3093,6 @@
     "lastName": "Bailey",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Chemistry", "Biology", "History", "Music"]
   },
   {
@@ -3488,7 +3101,6 @@
     "lastName": "Pope",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Physical Education", "Computer Science", "History", "Art"]
   },
   {
@@ -3497,7 +3109,6 @@
     "lastName": "Martinez",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Physical Education", "Biology", "Science", "Chemistry", "Math"]
   },
   {
@@ -3506,7 +3117,6 @@
     "lastName": "James",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Physical Education", "Chemistry", "Biology", "Computer Science", "Art"]
   },
   {
@@ -3515,7 +3125,6 @@
     "lastName": "Cardenas",
     "age": 20,
     "gender": "Female",
-
     "courses": ["History", "Music", "Math", "Science"]
   },
   {
@@ -3524,7 +3133,6 @@
     "lastName": "Ballard",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Science", "Music", "English", "History", "Computer Science"]
   },
   {
@@ -3533,7 +3141,6 @@
     "lastName": "Roberts",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Science", "Biology", "Math", "Chemistry"]
   },
   {
@@ -3542,7 +3149,6 @@
     "lastName": "Reed",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Music", "Science", "Art", "Biology"]
   },
   {
@@ -3551,7 +3157,6 @@
     "lastName": "Scott",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Computer Science", "Physical Education", "Biology"]
   },
   {
@@ -3560,7 +3165,6 @@
     "lastName": "Harris",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Biology", "Science", "Physical Education"]
   },
   {
@@ -3569,7 +3173,6 @@
     "lastName": "Fitzpatrick",
     "age": 18,
     "gender": "Male",
-
     "courses": ["Math", "Computer Science", "Music"]
   },
   {
@@ -3578,7 +3181,6 @@
     "lastName": "Taylor",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Computer Science", "English", "Art", "History"]
   },
   {
@@ -3587,7 +3189,6 @@
     "lastName": "Matthews",
     "age": 21,
     "gender": "Other",
-
     "courses": ["Science", "Art", "Physical Education", "Computer Science", "English"]
   },
   {
@@ -3596,7 +3197,6 @@
     "lastName": "Santiago",
     "age": 20,
     "gender": "Male",
-
     "courses": ["English", "Computer Science", "Art"]
   },
   {
@@ -3605,7 +3205,6 @@
     "lastName": "Little",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Music", "Physical Education", "Computer Science"]
   },
   {
@@ -3614,7 +3213,6 @@
     "lastName": "Gutierrez",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Chemistry", "Biology", "Physical Education", "Art", "English"]
   },
   {
@@ -3623,7 +3221,6 @@
     "lastName": "Garcia",
     "age": 23,
     "gender": "Other",
-
     "courses": ["Computer Science", "History", "Biology", "Art"]
   },
   {
@@ -3632,7 +3229,6 @@
     "lastName": "Smith",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Chemistry", "History", "Science", "Art", "Math"]
   },
   {
@@ -3641,7 +3237,6 @@
     "lastName": "Hickman",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Math", "Computer Science", "History", "Chemistry"]
   },
   {
@@ -3650,7 +3245,6 @@
     "lastName": "Donovan",
     "age": 21,
     "gender": "Other",
-
     "courses": ["Computer Science", "Chemistry", "Biology"]
   },
   {
@@ -3659,7 +3253,6 @@
     "lastName": "Woods",
     "age": 22,
     "gender": "Other",
-
     "courses": ["English", "Art", "Biology"]
   },
   {
@@ -3668,7 +3261,6 @@
     "lastName": "Maynard",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Music", "Physical Education", "Science"]
   },
   {
@@ -3677,7 +3269,6 @@
     "lastName": "Brewer",
     "age": 21,
     "gender": "Other",
-
     "courses": ["Art", "English", "Computer Science", "Music", "History"]
   },
   {
@@ -3686,7 +3277,6 @@
     "lastName": "Davis",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Biology", "Computer Science", "English", "History"]
   },
   {
@@ -3695,7 +3285,6 @@
     "lastName": "Nichols",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Math", "Art", "Physical Education", "History", "Computer Science"]
   },
   {
@@ -3704,7 +3293,6 @@
     "lastName": "Zuniga",
     "age": 22,
     "gender": "Female",
-
     "courses": ["English", "Art", "Chemistry", "History"]
   },
   {
@@ -3713,7 +3301,6 @@
     "lastName": "Thompson",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Physical Education", "English", "Biology", "Music"]
   },
   {
@@ -3722,7 +3309,6 @@
     "lastName": "Thompson",
     "age": 18,
     "gender": "Other",
-
     "courses": ["English", "Science", "Biology", "Math", "History"]
   },
   {
@@ -3731,7 +3317,6 @@
     "lastName": "Osborn",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Math", "English", "Science"]
   },
   {
@@ -3740,7 +3325,6 @@
     "lastName": "Simpson",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Math", "English", "Chemistry"]
   },
   {
@@ -3749,7 +3333,6 @@
     "lastName": "Hayden",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Art", "Chemistry", "History", "Science"]
   },
   {
@@ -3758,7 +3341,6 @@
     "lastName": "Mcdowell",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Music", "Science", "Biology", "Computer Science", "History"]
   },
   {
@@ -3767,7 +3349,6 @@
     "lastName": "Bradley",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Biology", "English", "Math"]
   },
   {
@@ -3776,7 +3357,6 @@
     "lastName": "Bird",
     "age": 18,
     "gender": "Male",
-
     "courses": ["English", "Art", "Biology", "History", "Chemistry"]
   },
   {
@@ -3785,7 +3365,6 @@
     "lastName": "Hays",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Physical Education", "English", "Chemistry"]
   },
   {
@@ -3794,7 +3373,6 @@
     "lastName": "Snyder",
     "age": 21,
     "gender": "Female",
-
     "courses": ["History", "English", "Physical Education", "Computer Science", "Music"]
   },
   {
@@ -3803,7 +3381,6 @@
     "lastName": "Rosales",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Art", "Physical Education", "History", "Science", "Biology"]
   },
   {
@@ -3812,7 +3389,6 @@
     "lastName": "Lee",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Art", "Computer Science", "History", "Science", "Math"]
   },
   {
@@ -3821,7 +3397,6 @@
     "lastName": "Martin",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Art", "Biology", "Physical Education", "History"]
   },
   {
@@ -3830,7 +3405,6 @@
     "lastName": "Scott",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Art", "Chemistry", "Science", "Biology"]
   },
   {
@@ -3839,7 +3413,6 @@
     "lastName": "Doyle",
     "age": 22,
     "gender": "Female",
-
     "courses": ["Computer Science", "Math", "Physical Education"]
   },
   {
@@ -3848,7 +3421,6 @@
     "lastName": "Bradley",
     "age": 24,
     "gender": "Male",
-
     "courses": ["English", "History", "Chemistry", "Music"]
   },
   {
@@ -3857,7 +3429,6 @@
     "lastName": "Thompson",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Physical Education", "History", "Math", "Science", "Music"]
   },
   {
@@ -3866,7 +3437,6 @@
     "lastName": "Prince",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Chemistry", "Physical Education", "Science", "History"]
   },
   {
@@ -3875,7 +3445,6 @@
     "lastName": "Robertson",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Science", "Physical Education", "English", "Chemistry"]
   },
   {
@@ -3884,7 +3453,6 @@
     "lastName": "Caldwell",
     "age": 25,
     "gender": "Other",
-
     "courses": ["History", "Physical Education", "Chemistry"]
   },
   {
@@ -3893,7 +3461,6 @@
     "lastName": "Taylor",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Computer Science", "Math", "Biology", "Physical Education", "History"]
   },
   {
@@ -3902,7 +3469,6 @@
     "lastName": "Wright",
     "age": 19,
     "gender": "Other",
-
     "courses": ["Biology", "Chemistry", "Physical Education"]
   },
   {
@@ -3911,7 +3477,6 @@
     "lastName": "Young",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Music", "Biology", "Computer Science", "History"]
   },
   {
@@ -3920,7 +3485,6 @@
     "lastName": "Finley",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Art", "Biology", "Computer Science", "Math", "Music"]
   },
   {
@@ -3929,7 +3493,6 @@
     "lastName": "Sharp",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Music", "Science", "English", "Chemistry", "Computer Science"]
   },
   {
@@ -3938,7 +3501,6 @@
     "lastName": "Valdez",
     "age": 20,
     "gender": "Male",
-
     "courses": ["History", "Science", "Physical Education", "Biology"]
   },
   {
@@ -3947,7 +3509,6 @@
     "lastName": "Brown",
     "age": 20,
     "gender": "Other",
-
     "courses": ["Chemistry", "Science", "Music", "Physical Education"]
   },
   {
@@ -3956,7 +3517,6 @@
     "lastName": "Parker",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Computer Science", "Math", "Chemistry"]
   },
   {
@@ -3965,7 +3525,6 @@
     "lastName": "Shaw",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Chemistry", "Math", "History", "Science"]
   },
   {
@@ -3974,7 +3533,6 @@
     "lastName": "Padilla",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Computer Science", "Math", "History", "Science", "Music"]
   },
   {
@@ -3983,7 +3541,6 @@
     "lastName": "Wilson",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Music", "Physical Education", "Math", "Computer Science"]
   },
   {
@@ -3992,7 +3549,6 @@
     "lastName": "Phillips",
     "age": 23,
     "gender": "Male",
-
     "courses": ["Music", "English", "Computer Science"]
   },
   {
@@ -4001,7 +3557,6 @@
     "lastName": "Robinson",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Chemistry", "Science", "History", "Math", "Biology"]
   },
   {
@@ -4010,7 +3565,6 @@
     "lastName": "Hernandez",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Art", "Computer Science", "Chemistry", "Science", "History"]
   },
   {
@@ -4019,7 +3573,6 @@
     "lastName": "Obrien",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Math", "Chemistry", "Music", "Physical Education", "Science"]
   },
   {
@@ -4028,7 +3581,6 @@
     "lastName": "Dunn",
     "age": 21,
     "gender": "Male",
-
     "courses": ["Math", "Physical Education", "Biology"]
   },
   {
@@ -4037,7 +3589,6 @@
     "lastName": "Medina",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Chemistry", "Art", "History", "English", "Biology"]
   },
   {
@@ -4046,7 +3597,6 @@
     "lastName": "Robinson",
     "age": 18,
     "gender": "Female",
-
     "courses": ["Biology", "Computer Science", "English", "History", "Art"]
   },
   {
@@ -4055,7 +3605,6 @@
     "lastName": "Fischer",
     "age": 24,
     "gender": "Female",
-
     "courses": ["English", "Chemistry", "Physical Education"]
   },
   {
@@ -4064,7 +3613,6 @@
     "lastName": "Miller",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Chemistry", "English", "History", "Math"]
   },
   {
@@ -4073,7 +3621,6 @@
     "lastName": "Padilla",
     "age": 20,
     "gender": "Male",
-
     "courses": ["History", "Chemistry", "English", "Biology"]
   },
   {
@@ -4082,7 +3629,6 @@
     "lastName": "Elliott",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Science", "Music", "Chemistry"]
   },
   {
@@ -4091,7 +3637,6 @@
     "lastName": "Kelley",
     "age": 20,
     "gender": "Male",
-
     "courses": ["Physical Education", "Chemistry", "Math"]
   },
   {
@@ -4100,7 +3645,6 @@
     "lastName": "Armstrong",
     "age": 25,
     "gender": "Male",
-
     "courses": ["History", "Physical Education", "English", "Science"]
   },
   {
@@ -4109,7 +3653,6 @@
     "lastName": "Murphy",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Science", "Physical Education", "Math", "Computer Science", "History"]
   },
   {
@@ -4118,7 +3661,6 @@
     "lastName": "Wilson",
     "age": 18,
     "gender": "Other",
-
     "courses": ["English", "Biology", "Math", "History"]
   },
   {
@@ -4127,7 +3669,6 @@
     "lastName": "Aguilar",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Physical Education", "English", "Science"]
   },
   {
@@ -4136,7 +3677,6 @@
     "lastName": "Dixon",
     "age": 19,
     "gender": "Other",
-
     "courses": ["History", "Art", "Biology"]
   },
   {
@@ -4145,7 +3685,6 @@
     "lastName": "Chavez",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Computer Science", "History", "Art", "Math", "English"]
   },
   {
@@ -4154,7 +3693,6 @@
     "lastName": "Bryant",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Computer Science", "Science", "Chemistry", "History", "Art"]
   },
   {
@@ -4163,7 +3701,6 @@
     "lastName": "Ford",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Math", "Biology", "Computer Science", "English", "Chemistry"]
   },
   {
@@ -4172,7 +3709,6 @@
     "lastName": "Cummings",
     "age": 25,
     "gender": "Male",
-
     "courses": ["History", "Chemistry", "Biology"]
   },
   {
@@ -4181,7 +3717,6 @@
     "lastName": "Velasquez",
     "age": 24,
     "gender": "Other",
-
     "courses": ["Computer Science", "Biology", "Art"]
   },
   {
@@ -4190,7 +3725,6 @@
     "lastName": "Lane",
     "age": 25,
     "gender": "Other",
-
     "courses": ["Science", "History", "Computer Science", "Chemistry", "Art"]
   },
   {
@@ -4199,7 +3733,6 @@
     "lastName": "Cooper",
     "age": 23,
     "gender": "Male",
-
     "courses": ["Science", "Biology", "Physical Education"]
   },
   {
@@ -4208,7 +3741,6 @@
     "lastName": "Mcknight",
     "age": 24,
     "gender": "Female",
-
     "courses": ["History", "English", "Biology", "Art"]
   },
   {
@@ -4217,7 +3749,6 @@
     "lastName": "Jones",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Chemistry", "Music", "Math", "Art"]
   },
   {
@@ -4226,7 +3757,6 @@
     "lastName": "Johnson",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Physical Education", "Math", "Biology"]
   },
   {
@@ -4235,7 +3765,6 @@
     "lastName": "Mack",
     "age": 24,
     "gender": "Female",
-
     "courses": ["History", "Math", "English", "Chemistry"]
   },
   {
@@ -4244,7 +3773,6 @@
     "lastName": "Good",
     "age": 21,
     "gender": "Female",
-
     "courses": ["History", "Math", "English"]
   },
   {
@@ -4253,7 +3781,6 @@
     "lastName": "Fisher",
     "age": 19,
     "gender": "Male",
-
     "courses": ["Biology", "Math", "Physical Education", "Music"]
   },
   {
@@ -4262,7 +3789,6 @@
     "lastName": "Reyes",
     "age": 23,
     "gender": "Female",
-
     "courses": ["History", "Art", "Computer Science"]
   },
   {
@@ -4271,7 +3797,6 @@
     "lastName": "Knox",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Computer Science", "History", "Biology"]
   },
   {
@@ -4280,7 +3805,6 @@
     "lastName": "Vega",
     "age": 23,
     "gender": "Other",
-
     "courses": ["English", "Chemistry", "Biology", "Science", "Physical Education"]
   },
   {
@@ -4289,7 +3813,6 @@
     "lastName": "Ryan",
     "age": 19,
     "gender": "Female",
-
     "courses": ["History", "Art", "Science", "Biology"]
   },
   {
@@ -4298,7 +3821,6 @@
     "lastName": "Bailey",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Biology", "Music", "English", "Art"]
   },
   {
@@ -4307,7 +3829,6 @@
     "lastName": "Medina",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Science", "Math", "Music", "Art"]
   },
   {
@@ -4316,7 +3837,6 @@
     "lastName": "Luna",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Music", "Biology", "History", "Chemistry"]
   },
   {
@@ -4325,7 +3845,6 @@
     "lastName": "Smith",
     "age": 24,
     "gender": "Female",
-
     "courses": ["Math", "Music", "Computer Science", "Physical Education", "Biology"]
   },
   {
@@ -4334,7 +3853,6 @@
     "lastName": "Evans",
     "age": 20,
     "gender": "Other",
-
     "courses": ["English", "Physical Education", "Music", "Computer Science"]
   },
   {
@@ -4343,7 +3861,6 @@
     "lastName": "Stephens",
     "age": 18,
     "gender": "Female",
-
     "courses": ["Physical Education", "History", "Math", "Music"]
   },
   {
@@ -4352,7 +3869,6 @@
     "lastName": "Morrow",
     "age": 25,
     "gender": "Other",
-
     "courses": ["English", "Physical Education", "Science"]
   },
   {
@@ -4361,7 +3877,6 @@
     "lastName": "Reed",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Science", "Biology", "English"]
   },
   {
@@ -4370,7 +3885,6 @@
     "lastName": "Pineda",
     "age": 25,
     "gender": "Female",
-
     "courses": ["Science", "Art", "Math", "Biology", "Chemistry"]
   },
   {
@@ -4379,7 +3893,6 @@
     "lastName": "Rodriguez",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Biology", "History", "Science"]
   },
   {
@@ -4388,7 +3901,6 @@
     "lastName": "Barnes",
     "age": 25,
     "gender": "Male",
-
     "courses": ["Physical Education", "Music", "Biology"]
   },
   {
@@ -4397,7 +3909,6 @@
     "lastName": "Stephenson",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Science", "English", "Art", "History"]
   },
   {
@@ -4406,7 +3917,6 @@
     "lastName": "Harris",
     "age": 21,
     "gender": "Female",
-
     "courses": ["Chemistry", "Music", "Physical Education", "Art"]
   },
   {
@@ -4415,7 +3925,6 @@
     "lastName": "Johnson",
     "age": 22,
     "gender": "Other",
-
     "courses": ["Art", "English", "Chemistry", "Math"]
   },
   {
@@ -4424,7 +3933,6 @@
     "lastName": "Warner",
     "age": 24,
     "gender": "Male",
-
     "courses": ["Computer Science", "Biology", "Math"]
   },
   {
@@ -4433,7 +3941,6 @@
     "lastName": "Yang",
     "age": 19,
     "gender": "Other",
-
     "courses": ["English", "Science", "Physical Education"]
   },
   {
@@ -4442,7 +3949,6 @@
     "lastName": "Young",
     "age": 19,
     "gender": "Female",
-
     "courses": ["Biology", "Art", "Science"]
   },
   {
@@ -4451,7 +3957,6 @@
     "lastName": "Shields",
     "age": 22,
     "gender": "Male",
-
     "courses": ["Art", "Science", "History"]
   },
   {
@@ -4460,7 +3965,6 @@
     "lastName": "Gordon",
     "age": 18,
     "gender": "Other",
-
     "courses": ["Biology", "Chemistry", "Computer Science"]
   },
   {
@@ -4469,7 +3973,6 @@
     "lastName": "Cabrera",
     "age": 21,
     "gender": "Female",
-
     "courses": ["English", "Biology", "Art"]
   },
   {
@@ -4478,7 +3981,6 @@
     "lastName": "Flores",
     "age": 20,
     "gender": "Female",
-
     "courses": ["Physical Education", "Science", "History", "Music", "Math"]
   },
   {
@@ -4487,7 +3989,6 @@
     "lastName": "Chambers",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Science", "Music", "English"]
   },
   {
@@ -4496,7 +3997,6 @@
     "lastName": "Turner",
     "age": 23,
     "gender": "Female",
-
     "courses": ["Biology", "Art", "Music", "Math", "Chemistry"]
   }
 ]

@@ -29,6 +29,14 @@
         [options]="genderOptions"
         [errorMessage]="'Gender is required'"
       ></dropdown-select>
+
+      <checkbox
+        [inputForm]="studentForm"
+        label="Select Courses"
+        formControlName="courses"
+        [options]="availableCourses"
+        [errorMessage]="'At least one course must be selected'"
+      ></checkbox>
     </div>
 
     <div class="student-form-dialog-footer">

@@ -5,6 +5,7 @@ import { TableModule } from 'primeng/table'
 import { ButtonModule } from 'primeng/button'
 import { DialogModule } from 'primeng/dialog'
 import { SelectModule } from 'primeng/select'
+import { CheckboxModule } from 'primeng/checkbox'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { InputTextModule } from 'primeng/inputtext'
 import { DropdownModule } from 'primeng/dropdown'
@@ -17,6 +18,7 @@ import { InputTextComponent } from '../../widgets/input-text.component'
 import { ButtonComponent } from '../../widgets/button.component'
 import { SplitButtonComponent } from '../../widgets/split.button.component'
 import { SelectComponent } from '../../widgets/select.component'
+import { CheckboxComponent } from '../../widgets/checkbox.component'
 
 @NgModule({
   declarations: [StudentListComponent, StudentFormComponent],
@@ -28,6 +30,7 @@ import { SelectComponent } from '../../widgets/select.component'
     ButtonModule,
     DialogModule,
     SelectModule,
+    CheckboxModule,
     InputTextModule,
     DropdownModule,
     RouterOutlet,
@@ -37,6 +40,7 @@ import { SelectComponent } from '../../widgets/select.component'
     InputTextComponent,
     SplitButtonComponent,
     SelectComponent,
+    CheckboxComponent,
     ReactiveFormsModule
   ]
 })

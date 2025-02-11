@@ -17,12 +17,25 @@ export class StudentFormComponent implements OnInit {
 
   studentForm!: FormGroup
   genderOptions: SelectItem[]
+  availableCourses: string[]
 
   constructor(private formBuilder: FormBuilder) {
     this.genderOptions = [
       { label: 'Male', value: 'Male' },
       { label: 'Female', value: 'Female' },
       { label: 'Other', value: 'Other' }
+    ]
+    this.availableCourses = [
+      'Biology',
+      'Music',
+      'Art',
+      'History',
+      'Science',
+      'English',
+      'Chemistry',
+      'Math',
+      'Physical Education',
+      'Computer Science'
     ]
   }
 
