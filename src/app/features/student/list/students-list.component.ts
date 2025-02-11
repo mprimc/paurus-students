@@ -18,6 +18,8 @@ export class StudentListComponent implements OnInit {
   totalRecords = 0
   currentPage = 1
   pageSize = 20
+  updatedStudent: Student | null = null
+  displayStudentForm = false
 
   constructor(
     private cdRef: ChangeDetectorRef,
@@ -67,7 +69,9 @@ export class StudentListComponent implements OnInit {
 
   selectStudentOption(action: ButtonAction, bondedData: any): void {
     const student = bondedData as StudentMenuItem
-    console.log('option selected', action, student.firstName)
+    if (action === ButtonAction.Edit) {
+      this.openEditStudentForm(student)
+    }
   }
 
   onPageChange(event: { first: number; rows: number }): void {
@@ -95,5 +99,30 @@ export class StudentListComponent implements OnInit {
     // Force change detection
     this.students = [...this.students]
     this.cdRef.detectChanges()
+  }
+
+  openAddStudentForm() {
+    this.updatedStudent = null
+    this.displayStudentForm = true
+  }
+
+  openEditStudentForm(student: Student) {
+    this.updatedStudent = { ...student }
+    this.displayStudentForm = true
+  }
+
+  saveStudent(student: Student) {
+    // if (this.updatedStudent) {
+    //   this.studentService.updateStudent(student)
+    // } else {
+    //   this.studentService.addStudent(student)
+    // }
+    // this.fetchStudents(this.currentPage)
+    console.log('updated student', student)
+    this.displayStudentForm = false
+  }
+
+  closeForm() {
+    this.displayStudentForm = false
   }
 }

@@ -4,7 +4,7 @@ import { StudentRoutingModule } from './student-routing.module'
 import { TableModule } from 'primeng/table'
 import { ButtonModule } from 'primeng/button'
 import { DialogModule } from 'primeng/dialog'
-import { FormsModule } from '@angular/forms'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { InputTextModule } from 'primeng/inputtext'
 import { DropdownModule } from 'primeng/dropdown'
 import { StudentListComponent } from './list/students-list.component'
@@ -32,7 +32,8 @@ import { SplitButtonComponent } from '../../widgets/split.button.component'
     ButtonComponent,
     InputNumberComponent,
     InputTextComponent,
-    SplitButtonComponent
+    SplitButtonComponent,
+    ReactiveFormsModule
   ]
 })
 export class StudentModule {}

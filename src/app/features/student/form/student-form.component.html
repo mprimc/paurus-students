@@ -1,0 +1,24 @@
+<p-dialog [(visible)]="visible" [modal]="true" [closable]="false" header="Student Form">
+  <form *ngIf="studentForm" [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+    <div class="student-form-data">
+      <input-text
+        [inputForm]="studentForm"
+        label="Name"
+        formControlName="firstName"
+        [errorMessage]="validateStringField('firstName')"
+      ></input-text>
+
+      <input-number
+        [inputForm]="studentForm"
+        label="Age"
+        formControlName="age"
+        [errorMessage]="validateAgeField()"
+      ></input-number>
+    </div>
+
+    <div class="student-form-dialog-footer">
+      <button type="button" label="Cancel" (click)="onCancel()" class="p-button-text"></button>
+      <button type="submit" label="Save" [disabled]="studentForm.invalid"></button>
+    </div>
+  </form>
+</p-dialog>

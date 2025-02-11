@@ -46,7 +46,7 @@
               <split-button
                 label=""
                 severity="secondary"
-                [menuItems]="student.actions"
+                [menuItems]="student.actionOptions"
                 [styleClass]="'icon-only-button'"
                 [bondedData]="student"
                 (optionSelected)="selectStudentOption($event.action, $event.bondedData)"
@@ -58,5 +58,12 @@
       </ng-template>
     </p-table>
   </div>
+
+  <app-student-form
+    [student]="updatedStudent"
+    [visible]="displayStudentForm"
+    (save)="saveStudent($event)"
+    (close)="closeForm()"
+  ></app-student-form>
 </div>
 <router-outlet />

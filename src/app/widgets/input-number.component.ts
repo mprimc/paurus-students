@@ -1,5 +1,5 @@
 import { Component, forwardRef, Input } from '@angular/core'
-import { FormGroup } from '@angular/forms'
+import { FormControl, FormGroup } from '@angular/forms'
 import { ReactiveFormsModule, NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms'
 import { CommonModule } from '@angular/common'
 
@@ -9,11 +9,8 @@ import { CommonModule } from '@angular/common'
   template: `
     <div class="input-number-container">
       <label for="inputNumber">{{ label }}</label>
-      <input id="inputNumber" pInputText type="number" [formControlName]="formControlName" />
-      <small
-        *ngIf="inputForm?.get(formControlName)?.invalid && inputForm?.get(formControlName)?.touched"
-        class="p-error"
-      >
+      <input *ngIf="control" pInputText type="number" [formControl]="control" />
+      <small *ngIf="control?.invalid && control?.touched" class="p-error">
         {{ errorMessage }}
       </small>
     </div>
@@ -31,6 +28,11 @@ export class InputNumberComponent {
   @Input() label!: string
   @Input() formControlName!: string
   @Input() errorMessage?: string | null
+
+  get control(): FormControl | null {
+    return this.inputForm ? (this.inputForm.get(this.formControlName) as FormControl) : null
+  }
+
   value: number | string = ''
 
   writeValue(value: any): void {

@@ -1,5 +1,5 @@
 import { Component, forwardRef, Input } from '@angular/core'
-import { FormGroup, NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms'
+import { FormGroup, NG_VALUE_ACCESSOR, ControlValueAccessor, FormControl } from '@angular/forms'
 import { ReactiveFormsModule } from '@angular/forms'
 import { CommonModule } from '@angular/common'
 
@@ -9,11 +9,8 @@ import { CommonModule } from '@angular/common'
   template: `
     <div class="input-text-container">
       <label for="inputText">{{ label }}</label>
-      <input id="inputText" pInputText [formControlName]="formControlName" />
-      <small
-        *ngIf="inputForm?.get(formControlName)?.invalid && inputForm?.get(formControlName)?.touched"
-        class="p-error"
-      >
+      <input *ngIf="control" id="inputText" pInputText [formControl]="control" />
+      <small *ngIf="control?.invalid && control?.touched" class="p-error">
         {{ errorMessage }}
       </small>
     </div>
@@ -31,6 +28,10 @@ export class InputTextComponent implements ControlValueAccessor {
   @Input() label!: string
   @Input() formControlName!: string
   @Input() errorMessage?: string | null
+
+  get control(): FormControl | null {
+    return this.inputForm ? (this.inputForm.get(this.formControlName) as FormControl) : null
+  }
 
   value: string = ''
 
