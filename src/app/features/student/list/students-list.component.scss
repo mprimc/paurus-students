@@ -33,4 +33,51 @@
     justify-content: flex-end;
     padding-bottom: 1rem;
   }
+
+  ::ng-deep .p-datatable-table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+
+    thead {
+      th {
+        border: 0px;
+        border-top: 1px;
+        border-bottom: 1px;
+        padding: 10px;
+      }
+      th:first-child {
+        border-left: 1px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      th:last-child {
+        border-right: 1px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+    }
+
+    tbody {
+      td {
+        border: 0px;
+        border-top: 1px;
+        border-bottom: 1px;
+        padding: 10px;
+      }
+      td:first-child {
+        border-left: 1px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      td:last-child {
+        border-right: 1px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+    }
+  }
+  ::ng-deep .p-paginator {
+    margin-top: 10px;
+    width: 100%;
+  }
 }
