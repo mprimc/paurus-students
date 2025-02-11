@@ -42,15 +42,17 @@
           <td>{{ student.grade }}</td>
           <td>{{ student.courses }}</td>
           <td>
-            <p-splitbutton
-              label="Options"
-              class="student-action-holder"
-              dropdownIcon="pi pi-ellipsis-v"
-              [model]="studentActions"
-              severity="secondary"
-              text="false"
-            >
-            </p-splitbutton>
+            <div class="student-options-holder">
+              <split-button
+                label=""
+                severity="secondary"
+                [menuItems]="student.actions"
+                [styleClass]="'icon-only-button'"
+                [bondedData]="student"
+                (optionSelected)="selectStudentOption($event.action, $event.bondedData)"
+              >
+              </split-button>
+            </div>
           </td>
         </tr>
       </ng-template>

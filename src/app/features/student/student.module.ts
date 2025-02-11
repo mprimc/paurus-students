@@ -11,6 +11,10 @@ import { StudentListComponent } from './list/students-list.component'
 import { StudentFormComponent } from './form/student-form.component'
 import { SplitButton } from 'primeng/splitbutton'
 import { RouterOutlet } from '@angular/router'
+import { InputNumberComponent } from '../../widgets/input-number.component'
+import { InputTextComponent } from '../../widgets/input-text.component'
+import { ButtonComponent } from '../../widgets/button.component'
+import { SplitButtonComponent } from '../../widgets/split.button.component'
 
 @NgModule({
   declarations: [StudentListComponent, StudentFormComponent],
@@ -24,7 +28,11 @@ import { RouterOutlet } from '@angular/router'
     InputTextModule,
     DropdownModule,
     RouterOutlet,
-    SplitButton
+    SplitButton,
+    ButtonComponent,
+    InputNumberComponent,
+    InputTextComponent,
+    SplitButtonComponent
   ]
 })
 export class StudentModule {}
