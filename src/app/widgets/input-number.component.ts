@@ -51,4 +51,14 @@ export class InputNumberComponent {
 
   onChange(_: any): void {}
   onTouched(): void {}
+
+  setDisabledState(isDisabled: boolean): void {
+    if (this.control?.disabled !== isDisabled) {
+      if (isDisabled) {
+        this.control?.disable()
+      } else {
+        this.control?.enable()
+      }
+    }
+  }
 }

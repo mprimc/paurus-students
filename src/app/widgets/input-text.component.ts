@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common'
 
 @Component({
   selector: 'input-text',
+  standalone: true,
   imports: [ReactiveFormsModule, CommonModule],
   template: `
     <div class="input-text-container">
@@ -51,4 +52,14 @@ export class InputTextComponent implements ControlValueAccessor {
 
   onChange(_: any): void {}
   onTouched(): void {}
+
+  setDisabledState(isDisabled: boolean): void {
+    if (this.control?.disabled !== isDisabled) {
+      if (isDisabled) {
+        this.control?.disable()
+      } else {
+        this.control?.enable()
+      }
+    }
+  }
 }

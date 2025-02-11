@@ -48,6 +48,13 @@ export class StudentFormComponent implements OnInit {
       this.studentForm.reset()
       if (this.student) {
         this.studentForm.patchValue(this.student)
+
+        if (this.student?.uid) {
+          this.studentForm.get('firstName')?.disable()
+          this.studentForm.get('lastName')?.disable()
+          this.studentForm.get('age')?.disable()
+          this.studentForm.get('gender')?.disable()
+        }
       }
     }
   }
@@ -65,7 +72,8 @@ export class StudentFormComponent implements OnInit {
 
   onSubmit() {
     if (this.studentForm.valid) {
-      this.save.emit(this.studentForm.value)
+      const student = this.studentForm.getRawValue()
+      this.save.emit(student)
     }
   }
 

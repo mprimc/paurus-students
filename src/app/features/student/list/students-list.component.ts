@@ -71,6 +71,11 @@ export class StudentListComponent implements OnInit {
     const student = bondedData as StudentMenuItem
     if (action === ButtonAction.Edit) {
       this.openEditStudentForm(student)
+    } else if (action === ButtonAction.Delete) {
+      this.studentService.deleteStudent(student.uid)
+      this.fetchStudents(this.currentPage)
+    } else {
+      console.log('Unsupported student action ', action)
     }
   }
 
@@ -112,13 +117,12 @@ export class StudentListComponent implements OnInit {
   }
 
   saveStudent(student: Student) {
-    // if (this.updatedStudent) {
-    //   this.studentService.updateStudent(student)
-    // } else {
-    //   this.studentService.addStudent(student)
-    // }
-    // this.fetchStudents(this.currentPage)
-    console.log('updated student', student)
+    if (this.updatedStudent) {
+      this.studentService.updateStudent(student)
+    } else {
+      this.studentService.addStudent(student)
+    }
+    this.fetchStudents(this.currentPage)
     this.displayStudentForm = false
   }
 
