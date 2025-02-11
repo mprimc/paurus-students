@@ -2,6 +2,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core'
 import { FormBuilder, FormGroup, Validators } from '@angular/forms'
 import { Student } from '../../../interfaces/student.interfaces'
 import { v4 as uuidv4 } from 'uuid'
+import { SelectItem } from '../../../interfaces/select.interfaces'
 @Component({
   standalone: false,
   selector: 'app-student-form',
@@ -15,8 +16,15 @@ export class StudentFormComponent implements OnInit {
   @Output() close = new EventEmitter<void>()
 
   studentForm!: FormGroup
+  genderOptions: SelectItem[]
 
-  constructor(private formBuilder: FormBuilder) {}
+  constructor(private formBuilder: FormBuilder) {
+    this.genderOptions = [
+      { label: 'Male', value: 'Male' },
+      { label: 'Female', value: 'Female' },
+      { label: 'Other', value: 'Other' }
+    ]
+  }
 
   ngOnInit(): void {
     this.initForm()
@@ -38,7 +46,6 @@ export class StudentFormComponent implements OnInit {
       lastName: [this.student?.lastName || '', Validators.required],
       age: [this.student?.age || '', [Validators.required, Validators.min(18)]],
       gender: [this.student?.gender || '', Validators.required],
-      grade: [this.student?.grade || '', Validators.required],
       courses: [this.student?.courses || [], Validators.required]
     })
   }

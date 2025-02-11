@@ -6,7 +6,6 @@ export interface Student {
   lastName: string
   age: number
   gender: string
-  grade: number
   courses: string[]
 }
 

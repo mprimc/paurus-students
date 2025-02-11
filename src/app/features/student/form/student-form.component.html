@@ -8,12 +8,27 @@
         [errorMessage]="validateStringField('firstName')"
       ></input-text>
 
+      <input-text
+        [inputForm]="studentForm"
+        label="Last name"
+        formControlName="lastName"
+        [errorMessage]="validateStringField('lastName')"
+      ></input-text>
+
       <input-number
         [inputForm]="studentForm"
         label="Age"
         formControlName="age"
         [errorMessage]="validateAgeField()"
       ></input-number>
+
+      <dropdown-select
+        [inputForm]="studentForm"
+        label="Gender"
+        formControlName="gender"
+        [options]="genderOptions"
+        [errorMessage]="'Gender is required'"
+      ></dropdown-select>
     </div>
 
     <div class="student-form-dialog-footer">

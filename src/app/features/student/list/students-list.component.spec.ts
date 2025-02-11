@@ -41,7 +41,6 @@ describe('StudentListComponent', () => {
           lastName: 'Jennings',
           age: 21,
           gender: 'Other',
-          grade: 1,
           courses: ['Biology', 'Music', 'Art']
         }
       ],
