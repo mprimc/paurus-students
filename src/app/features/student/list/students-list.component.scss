@@ -79,5 +79,18 @@
   ::ng-deep .p-paginator {
     margin-top: 10px;
     width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  ::ng-deep .p-paginator .p-dropdown {
+    order: 1;
+  }
+
+  ::ng-deep .p-paginator .p-paginator-current {
+    order: 2;
+    width: 100%;
   }
 }
