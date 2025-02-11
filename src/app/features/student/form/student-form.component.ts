@@ -48,13 +48,15 @@ export class StudentFormComponent implements OnInit {
       this.studentForm.reset()
       if (this.student) {
         this.studentForm.patchValue(this.student)
-
-        if (this.student?.uid) {
-          this.studentForm.get('firstName')?.disable()
-          this.studentForm.get('lastName')?.disable()
-          this.studentForm.get('age')?.disable()
-          this.studentForm.get('gender')?.disable()
-        }
+        this.studentForm.get('firstName')?.disable()
+        this.studentForm.get('lastName')?.disable()
+        this.studentForm.get('age')?.disable()
+        this.studentForm.get('gender')?.disable()
+      } else {
+        this.studentForm.get('firstName')?.enable()
+        this.studentForm.get('lastName')?.enable()
+        this.studentForm.get('age')?.enable()
+        this.studentForm.get('gender')?.enable()
       }
     }
   }
