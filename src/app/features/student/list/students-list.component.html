@@ -1,4 +1,13 @@
 <div class="students-list-container">
+  <div class="add-student-button-holder">
+    <button
+      label="Add new student"
+      icon="pi pi-plus"
+      (click)="openAddStudentForm()"
+      class="p-button-text"
+      severity="primary"
+    ></button>
+  </div>
   <div class="students-table-container">
     <p-table
       [value]="students"

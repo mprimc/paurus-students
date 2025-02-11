@@ -1,4 +1,5 @@
 import { Component } from '@angular/core'
+import { Router } from '@angular/router'
 
 @Component({
   standalone: false,
@@ -8,4 +9,10 @@ import { Component } from '@angular/core'
 })
 export class AppComponent {
   title = 'Paurus students project'
+
+  constructor(private router: Router) {}
+
+  navigateTo(route: string) {
+    this.router.navigate([route])
+  }
 }

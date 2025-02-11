@@ -8,6 +8,8 @@ import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http'
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async'
 import { providePrimeNG } from 'primeng/config'
 import Aura from '@primeng/themes/aura'
+import { ButtonModule } from 'primeng/button'
+import { ButtonComponent } from './widgets/button.component'
 
 @NgModule({
   providers: [
@@ -29,7 +31,7 @@ import Aura from '@primeng/themes/aura'
     })
   ],
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, RouterOutlet],
+  imports: [BrowserModule, AppRoutingModule, RouterOutlet, ButtonModule, ButtonComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

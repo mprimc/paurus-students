@@ -1,6 +1,4 @@
 .students-list-container {
-  //   --primeng-datatable-body-cell-border-color: red;
-
   --primeng-datatable-header-cell-color: var(--Neutral-200);
   --primeng-datatable-header-cell-background: var(--Neutral-900);
   --primeng-datatable-row-striped-background: var(--Neutral-200);
@@ -12,8 +10,8 @@
   --primeng-paginator-nav-button-selected-background: var(--Neutral-300);
   --primeng-paginator-nav-button-border-radius: 10px;
 
-  --primeng-select-border-color: var(--Neutral-800)
-    --primeng-select-option-selected-background: var(--Neutral-300);
+  --primeng-select-border-color: var(--Neutral-800);
+  --primeng-select-option-selected-background: var(--Neutral-300);
   --primeng-select-overlay-background: var(--Neutral-200);
   --primeng-select-option-selected-focus-background: var(--Neutral-300);
   --primeng-select-option-selected-focus-color: var(--Neutral-800);
@@ -28,4 +26,11 @@
 
   --primeng-paginator-current-page-report-color: var(--Neutral-800);
   --primeng-paginator-nav-button-color: var(--Neutral-800);
+
+  .add-student-button-holder {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+  }
 }
