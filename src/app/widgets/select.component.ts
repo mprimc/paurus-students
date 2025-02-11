@@ -20,12 +20,27 @@ import { SelectItem } from '../interfaces/select.interfaces'
         optionLabel="label"
         optionValue="value"
         placeholder="Select {{ label }}"
+        size="small"
       >
       </p-select>
       <small *ngIf="control?.invalid && control?.touched" class="p-error">
         {{ errorMessage }}
       </small>
     </div>
+  `,
+  styles: `
+    .select-container {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      gap: 0.5rem;
+
+      .p-select {
+        min-width: 9rem;
+      }
+    }
   `,
   providers: [
     {

@@ -11,8 +11,8 @@ import { CheckboxModule } from 'primeng/checkbox'
   template: `
     <div class="checkbox-container">
       <label>{{ label }}</label>
-      <div *ngIf="control">
-        <div *ngFor="let option of options">
+      <div *ngIf="control" class="checkbox-items-holder">
+        <div *ngFor="let option of options" class="checkbox-item-holder">
           <p-checkbox
             [inputId]="option"
             [value]="option"
@@ -26,6 +26,28 @@ import { CheckboxModule } from 'primeng/checkbox'
         {{ errorMessage }}
       </small>
     </div>
+  `,
+  styles: `
+    .checkbox-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      gap: 0.5rem;
+
+      .checkbox-items-holder {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0.5rem;
+        .checkbox-item-holder {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          gap: 0.5rem;
+        }
+      }
+    }
   `,
   providers: [
     {

@@ -1,0 +1,23 @@
+::ng-deep .student-form-dialog-container .p-dialog {
+  width: 350px;
+}
+::ng-deep .student-form-dialog-container .p-dialog-header {
+  justify-content: center;
+}
+
+.student-form-data {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.student-form-dialog-footer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}

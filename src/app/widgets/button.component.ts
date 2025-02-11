@@ -6,13 +6,26 @@ import { ButtonModule } from 'primeng/button'
   selector: 'button',
   standalone: true,
   imports: [CommonModule, ButtonModule],
-  template: `<p-button
-    [label]="label"
-    [icon]="icon"
-    [severity]="severity"
-    (click)="onClick()"
-    [disabled]="disabled"
-  ></p-button>`
+  template: `
+    <div class="button-container">
+      <p-button
+        [label]="label"
+        [icon]="icon"
+        [severity]="severity"
+        (click)="onClick()"
+        [disabled]="disabled"
+        styleClass="button-holder"
+      ></p-button>
+    </div>
+  `,
+  styles: `
+    .button-container {
+      min-width: 100px;
+    }
+    ::ng-deep .button-holder {
+      width: 100%;
+    }
+  `
 })
 export class ButtonComponent {
   @Input() label = ''

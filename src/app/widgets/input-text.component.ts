@@ -16,6 +16,16 @@ import { CommonModule } from '@angular/common'
       </small>
     </div>
   `,
+  styles: `
+    .input-text-container {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 0.5rem;
+    }
+  `,
   providers: [
     {
       provide: NG_VALUE_ACCESSOR,
