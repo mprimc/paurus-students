@@ -1,0 +1,53 @@
+<p-dialog
+  [(visible)]="visible"
+  [modal]="true"
+  [closable]="false"
+  class="student-form-dialog-container"
+  header="Student Form"
+>
+  <form *ngIf="studentForm" [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+    <div class="student-form-data">
+      <input-text
+        [inputForm]="studentForm"
+        label="Name:"
+        formControlName="firstName"
+        [errorMessage]="validateStringField('firstName')"
+      ></input-text>
+
+      <input-text
+        [inputForm]="studentForm"
+        label="Last name:"
+        formControlName="lastName"
+        [errorMessage]="validateStringField('lastName')"
+      ></input-text>
+
+      <input-number
+        [inputForm]="studentForm"
+        label="Age:"
+        formControlName="age"
+        [errorMessage]="validateAgeField()"
+      ></input-number>
+
+      <dropdown-select
+        [inputForm]="studentForm"
+        label="Gender:"
+        formControlName="gender"
+        [options]="genderOptions"
+        [errorMessage]="'* Gender is required'"
+      ></dropdown-select>
+
+      <checkbox
+        [inputForm]="studentForm"
+        label="Select Courses:"
+        formControlName="courses"
+        [options]="availableCourses"
+        [errorMessage]="'* At least one course must be selected'"
+      ></checkbox>
+    </div>
+
+    <div class="student-form-dialog-footer">
+      <button label="Cancel" (click)="onCancel()" class="p-button-text"></button>
+      <button label="Save" [disabled]="studentForm.invalid" class="p-button-text"></button>
+    </div>
+  </form>
+</p-dialog>

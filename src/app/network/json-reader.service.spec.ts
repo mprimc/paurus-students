@@ -1,8 +1,8 @@
 import { TestBed } from '@angular/core/testing'
 import { provideHttpClientTesting, HttpTestingController } from '@angular/common/http/testing'
 import { JsonReaderService } from './json-reader.service'
-import { Student } from '../app/interfaces/student.interfaces'
 import { provideHttpClient } from '@angular/common/http'
+import { Student } from '../interfaces/student.interfaces'
 
 describe('JsonReaderService', () => {
   let service: JsonReaderService
@@ -14,7 +14,7 @@ describe('JsonReaderService', () => {
       lastName: 'Levine',
       age: 22,
       gender: 'Male',
-      grade: 11,
+
       courses: ['History', 'Science', 'Art', 'English']
     },
     {
@@ -23,7 +23,7 @@ describe('JsonReaderService', () => {
       lastName: 'Sanders',
       age: 25,
       gender: 'Other',
-      grade: 4,
+
       courses: ['Science', 'English', 'Art']
     }
   ]
@@ -69,7 +69,6 @@ describe('JsonReaderService', () => {
       }
     })
 
-    // Mock HTTP request with error
     const req = httpMock.expectOne('assets/students.json')
     req.flush(errorMessage, { status: 404, statusText: 'Not Found' })
   })

@@ -1,5 +1,7 @@
 .students-list-container {
-  //   --primeng-datatable-body-cell-border-color: red;
+  // NOTE: this solution to change colors is not the correct one or the best option!
+  // When you know the correct color palette
+  // you can change the semantics of the theme and set the primary colors in the configuration or simply use the tailwind css
 
   --primeng-datatable-header-cell-color: var(--Neutral-200);
   --primeng-datatable-header-cell-background: var(--Neutral-900);
@@ -12,20 +14,87 @@
   --primeng-paginator-nav-button-selected-background: var(--Neutral-300);
   --primeng-paginator-nav-button-border-radius: 10px;
 
-  --primeng-select-border-color: var(--Neutral-800)
-    --primeng-select-option-selected-background: var(--Neutral-300);
-  --primeng-select-overlay-background: var(--Neutral-200);
+  --primeng-select-border-color: var(--Neutral-800);
+  --primeng-select-option-selected-background: var(--Neutral-300);
+  --primeng-select-overlay-background: var(--Neutral-800);
   --primeng-select-option-selected-focus-background: var(--Neutral-300);
   --primeng-select-option-selected-focus-color: var(--Neutral-800);
-  --primeng-select-option-background: var(--Neutral-200);
+  --primeng-select-option-background: var(--Neutral-800);
   --primeng-select-option-focus-color: var(--Neutral-800);
-  --primeng-select-option-color: var(--Neutral-800);
+  --primeng-select-option-color: var(--Neutral-50);
 
-  --primeng-select-background: var(--Neutral-300);
+  --primeng-select-background: var(--Neutral-800);
   --primeng-select-option-focus-background: var(--Neutral-100);
   --primeng-select-option-focus-color: var(--Neutral-800);
-  --primeng-select-color: var(--Neutral-800);
+  --primeng-select-color: var(--Neutral-50);
 
   --primeng-paginator-current-page-report-color: var(--Neutral-800);
   --primeng-paginator-nav-button-color: var(--Neutral-800);
+
+  .add-student-button-holder {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+  }
+
+  ::ng-deep .p-datatable-table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+
+    thead {
+      th {
+        border: 0px;
+        border-top: 1px;
+        border-bottom: 1px;
+        padding: 10px;
+      }
+      th:first-child {
+        border-left: 1px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      th:last-child {
+        border-right: 1px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+    }
+
+    tbody {
+      td {
+        border: 0px;
+        border-top: 1px;
+        border-bottom: 1px;
+        padding: 10px;
+      }
+      td:first-child {
+        border-left: 1px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      td:last-child {
+        border-right: 1px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+    }
+  }
+  ::ng-deep .p-paginator {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  ::ng-deep .p-paginator .p-dropdown {
+    order: 1;
+  }
+
+  ::ng-deep .p-paginator .p-paginator-current {
+    order: 2;
+    width: 100%;
+  }
 }

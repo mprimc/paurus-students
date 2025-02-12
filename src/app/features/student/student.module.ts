@@ -4,13 +4,21 @@ import { StudentRoutingModule } from './student-routing.module'
 import { TableModule } from 'primeng/table'
 import { ButtonModule } from 'primeng/button'
 import { DialogModule } from 'primeng/dialog'
-import { FormsModule } from '@angular/forms'
+import { SelectModule } from 'primeng/select'
+import { CheckboxModule } from 'primeng/checkbox'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { InputTextModule } from 'primeng/inputtext'
 import { DropdownModule } from 'primeng/dropdown'
 import { StudentListComponent } from './list/students-list.component'
 import { StudentFormComponent } from './form/student-form.component'
 import { SplitButton } from 'primeng/splitbutton'
 import { RouterOutlet } from '@angular/router'
+import { InputNumberComponent } from '../../widgets/input-number.component'
+import { InputTextComponent } from '../../widgets/input-text.component'
+import { ButtonComponent } from '../../widgets/button.component'
+import { SplitButtonComponent } from '../../widgets/split-button.component'
+import { SelectComponent } from '../../widgets/select.component'
+import { CheckboxComponent } from '../../widgets/checkbox.component'
 
 @NgModule({
   declarations: [StudentListComponent, StudentFormComponent],
@@ -21,10 +29,19 @@ import { RouterOutlet } from '@angular/router'
     TableModule,
     ButtonModule,
     DialogModule,
+    SelectModule,
+    CheckboxModule,
     InputTextModule,
     DropdownModule,
     RouterOutlet,
-    SplitButton
+    SplitButton,
+    ButtonComponent,
+    InputNumberComponent,
+    InputTextComponent,
+    SplitButtonComponent,
+    SelectComponent,
+    CheckboxComponent,
+    ReactiveFormsModule
   ]
 })
 export class StudentModule {}

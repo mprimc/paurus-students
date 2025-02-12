@@ -15,7 +15,7 @@ describe('StudentService', () => {
       lastName: 'Jennings',
       age: 21,
       gender: 'Other',
-      grade: 1,
+
       courses: ['Biology', 'Music', 'Art']
     },
     {
@@ -24,7 +24,7 @@ describe('StudentService', () => {
       lastName: 'Levine',
       age: 22,
       gender: 'Male',
-      grade: 11,
+
       courses: ['History', 'Science', 'Art', 'English']
     },
     {
@@ -33,7 +33,7 @@ describe('StudentService', () => {
       lastName: 'Sanders',
       age: 25,
       gender: 'Other',
-      grade: 4,
+
       courses: ['Science', 'English', 'Art']
     },
     {
@@ -42,7 +42,7 @@ describe('StudentService', () => {
       lastName: 'Martinez',
       age: 21,
       gender: 'Female',
-      grade: 6,
+
       courses: ['Chemistry', 'Art', 'Music', 'Math', 'Biology']
     },
     {
@@ -51,7 +51,7 @@ describe('StudentService', () => {
       lastName: 'Gibson',
       age: 22,
       gender: 'Male',
-      grade: 10,
+
       courses: ['History', 'Physical Education', 'Art', 'Math', 'Science']
     },
     {
@@ -60,7 +60,7 @@ describe('StudentService', () => {
       lastName: 'May',
       age: 20,
       gender: 'Female',
-      grade: 8,
+
       courses: ['Science', 'English', 'Art', 'Music']
     },
     {
@@ -69,7 +69,7 @@ describe('StudentService', () => {
       lastName: 'Smith',
       age: 22,
       gender: 'Other',
-      grade: 5,
+
       courses: ['Math', 'Chemistry', 'Music', 'Physical Education']
     },
     {
@@ -78,7 +78,7 @@ describe('StudentService', () => {
       lastName: 'Sanchez',
       age: 19,
       gender: 'Female',
-      grade: 5,
+
       courses: ['History', 'Computer Science', 'Physical Education', 'English', 'Chemistry']
     },
     {
@@ -87,7 +87,7 @@ describe('StudentService', () => {
       lastName: 'Cunningham',
       age: 18,
       gender: 'Other',
-      grade: 10,
+
       courses: ['Computer Science', 'Music', 'Art', 'History', 'Chemistry']
     },
     {
@@ -96,7 +96,7 @@ describe('StudentService', () => {
       lastName: 'Hubbard',
       age: 23,
       gender: 'Female',
-      grade: 10,
+
       courses: ['Biology', 'English', 'Chemistry', 'Physical Education']
     }
   ]
@@ -169,7 +169,7 @@ describe('StudentService', () => {
         lastName: 'Surname',
         age: 19,
         gender: 'male',
-        grade: 8,
+
         courses: []
       }
       studentService.addStudent(newStudent)

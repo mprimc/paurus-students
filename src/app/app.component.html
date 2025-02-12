@@ -1,10 +1,10 @@
 <div class="app-component-container">
   <h1>Student Paurus Management App</h1>
-  <nav>
-    <ul>
-      <li><a routerLink="/paurus/students">Student List</a></li>
-      <li><a routerLink="/paurus/add-student">Add Student</a></li>
-    </ul>
-  </nav>
+  <button
+    label="Navigate to Student List"
+    (click)="navigateTo('/paurus/students')"
+    class="p-button-text"
+    severity="secondary"
+  ></button>
   <router-outlet></router-outlet>
 </div>

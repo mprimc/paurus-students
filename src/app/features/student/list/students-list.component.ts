@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core'
-
 import { PaginatedResponse } from '../../../interfaces/pagination.interfaces'
-import { Student } from '../../../interfaces/student.interfaces'
+import { Student, StudentMenuItem } from '../../../interfaces/student.interfaces'
 import { StudentService } from '../../../services/student.service'
-
 import { ButtonAction } from '../../../enums/actions'
 import { MenuItem } from 'primeng/api'
 import { ChangeDetectorRef } from '@angular/core'
@@ -11,30 +9,17 @@ import { ChangeDetectorRef } from '@angular/core'
 @Component({
   standalone: false,
   selector: 'app-students-list',
-
   templateUrl: './students-list.component.html',
   styleUrl: './students-list.component.scss'
 })
 export class StudentListComponent implements OnInit {
-  studentActions: MenuItem[] = [
-    {
-      label: ButtonAction.Edit,
-      command: () => {
-        this.selectStudentOption(ButtonAction.Edit)
-      }
-    },
-    {
-      label: ButtonAction.Delete,
-      command: () => {
-        this.selectStudentOption(ButtonAction.Delete)
-      }
-    }
-  ]
   loading = false
-  students: Student[] = []
+  students: StudentMenuItem[] = []
   totalRecords = 0
   currentPage = 1
   pageSize = 20
+  updatedStudent: Student | null = null
+  displayStudentForm = false
 
   constructor(
     private cdRef: ChangeDetectorRef,
@@ -49,7 +34,10 @@ export class StudentListComponent implements OnInit {
     this.loading = true
     this.studentService.getStudents(page, this.pageSize).subscribe({
       next: (response: PaginatedResponse<Student[]>) => {
-        this.students = response.result
+        this.students = response.result.map((student) => ({
+          ...student,
+          actionOptions: this.createStudentActions(student)
+        }))
         this.totalRecords = response.pagination.totalRecords
         this.currentPage = response.pagination.currentPage
         this.cdRef.detectChanges()
@@ -62,17 +50,42 @@ export class StudentListComponent implements OnInit {
     })
   }
 
+  private createStudentActions(student: Student): MenuItem[] {
+    return [
+      {
+        label: ButtonAction.Edit,
+        command: () => {
+          this.selectStudentOption(ButtonAction.Edit, student)
+        }
+      },
+      {
+        label: ButtonAction.Delete,
+        command: () => {
+          this.selectStudentOption(ButtonAction.Delete, student)
+        }
+      }
+    ]
+  }
+
+  selectStudentOption(action: ButtonAction, bondedData: any): void {
+    const student = bondedData as StudentMenuItem
+    if (action === ButtonAction.Edit) {
+      this.openEditStudentForm(student)
+    } else if (action === ButtonAction.Delete) {
+      this.studentService.deleteStudent(student.uid)
+      this.fetchStudents(this.currentPage)
+    } else {
+      console.log('Unsupported student action ', action)
+    }
+  }
+
   onPageChange(event: { first: number; rows: number }): void {
     this.pageSize = event.rows
     const page = event.first / event.rows
     this.fetchStudents(page + 1)
   }
 
-  selectStudentOption(action: ButtonAction): void {
-    console.log('option selected', action)
-  }
-
-  customSort(event: any) {
+  customSort(event: { field: string; order: number }) {
     const field = event.field
     const order = event.order
 
@@ -92,5 +105,29 @@ export class StudentListComponent implements OnInit {
     // Force change detection
     this.students = [...this.students]
     this.cdRef.detectChanges()
+  }
+
+  openAddStudentForm() {
+    this.updatedStudent = null
+    this.displayStudentForm = true
+  }
+
+  openEditStudentForm(student: Student) {
+    this.updatedStudent = { ...student }
+    this.displayStudentForm = true
+  }
+
+  saveStudent(student: Student) {
+    if (this.updatedStudent) {
+      this.studentService.updateStudent(student)
+    } else {
+      this.studentService.addStudent(student)
+    }
+    this.fetchStudents(this.currentPage)
+    this.displayStudentForm = false
+  }
+
+  closeForm() {
+    this.displayStudentForm = false
   }
 }

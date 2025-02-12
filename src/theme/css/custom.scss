@@ -41,4 +41,9 @@ body {
   a:visited {
     color: var(--Persian-Red-700);
   }
+
+  .error-message-text {
+    font-size: 12px;
+    color: var(--Persian-Red-500-P);
+  }
 }
