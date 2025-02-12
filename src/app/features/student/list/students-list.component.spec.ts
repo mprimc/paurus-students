@@ -197,4 +197,61 @@ describe('StudentListComponent', () => {
     expect(component.pageSize).toBe(10)
     expect(component.fetchStudents).toHaveBeenCalledWith(3)
   })
+
+  it('should sort students by the specified field and order', () => {
+    const mockStudents = [
+      {
+        uid: '2fb0b07e-c1e0-4343-aadc-b151431cad2a',
+        firstName: 'Alice',
+        lastName: 'Levine',
+        age: 22,
+        gender: 'Male',
+        courses: ['Math', 'Science'],
+        actionOptions: []
+      },
+      {
+        uid: '2fb0b07e-c1e0-4343-aadc-b151431cad2b',
+        firstName: 'Bob',
+        lastName: 'Levine',
+        age: 20,
+        gender: 'Male',
+        courses: ['History', 'Art'],
+        actionOptions: []
+      },
+      {
+        uid: '2fb0b07e-c1e0-4343-aadc-b151431cad2c',
+        firstName: 'Charlie',
+        lastName: 'Levine',
+        age: 21,
+        gender: 'Male',
+        courses: ['English', 'Music'],
+        actionOptions: []
+      }
+    ]
+
+    component.students = mockStudents
+
+    const event = { field: 'firstName', order: 1 }
+    component.customSort(event)
+
+    expect(component.students[0].firstName).toBe('Alice')
+    expect(component.students[1].firstName).toBe('Bob')
+    expect(component.students[2].firstName).toBe('Charlie')
+
+    event.field = 'age'
+    event.order = -1
+    component.customSort(event)
+
+    expect(component.students[0].age).toBe(22)
+    expect(component.students[1].age).toBe(21)
+    expect(component.students[2].age).toBe(20)
+
+    event.field = 'courses'
+    event.order = 1
+    component.customSort(event)
+
+    expect(component.students[0].courses.join(',')).toBe('English,Music')
+    expect(component.students[1].courses.join(',')).toBe('History,Art')
+    expect(component.students[2].courses.join(',')).toBe('Math,Science')
+  })
 })

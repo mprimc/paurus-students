@@ -84,7 +84,8 @@ export class StudentListComponent implements OnInit {
     const page = event.first / event.rows
     this.fetchStudents(page + 1)
   }
-  customSort(event: any) {
+
+  customSort(event: { field: string; order: number }) {
     const field = event.field
     const order = event.order
 
