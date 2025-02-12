@@ -7,7 +7,7 @@ import { SelectItem } from '../interfaces/select.interfaces'
 
 @Component({
   selector: 'dropdown-select',
-  imports: [ReactiveFormsModule, CommonModule, SelectModule], // Import DropdownModule
+  imports: [ReactiveFormsModule, CommonModule, SelectModule],
   template: `
     <div class="select-container">
       <div class="select-data-holder">

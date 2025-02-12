@@ -16,7 +16,7 @@ import { RouterOutlet } from '@angular/router'
 import { InputNumberComponent } from '../../widgets/input-number.component'
 import { InputTextComponent } from '../../widgets/input-text.component'
 import { ButtonComponent } from '../../widgets/button.component'
-import { SplitButtonComponent } from '../../widgets/split.button.component'
+import { SplitButtonComponent } from '../../widgets/split-button.component'
 import { SelectComponent } from '../../widgets/select.component'
 import { CheckboxComponent } from '../../widgets/checkbox.component'
 
