@@ -14,6 +14,7 @@ import { ButtonAction } from '../enums/actions'
       [model]="internalMenuItems"
       [severity]="severity"
       [styleClass]="styleClass"
+      appendTo="body"
     >
     </p-splitbutton>
   `,
