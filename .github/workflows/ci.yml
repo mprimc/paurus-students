@@ -76,7 +76,7 @@ jobs:
         run: npm ci
 
       - name: Run unit tests
-        run: npm run test -- --watch=false --browsers=ChromeHeadlessCI
+        run: npm run test -- --watch=false --browsers=ChromeHeadless
 #   build-and-test:
 #     runs-on: ubuntu-latest  # You can specify a different OS if necessary
 
