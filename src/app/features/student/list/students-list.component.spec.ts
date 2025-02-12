@@ -2,37 +2,84 @@ import { ComponentFixture, TestBed } from '@angular/core/testing'
 import { StudentListComponent } from './students-list.component'
 import { StudentService } from '../../../services/student.service'
 import { of, throwError } from 'rxjs'
+import { ChangeDetectorRef } from '@angular/core'
 import { PaginatedResponse } from '../../../interfaces/pagination.interfaces'
 import { Student } from '../../../interfaces/student.interfaces'
+import { ButtonAction } from '../../../enums/actions'
 import { TableModule } from 'primeng/table'
-import { SplitButton } from 'primeng/splitbutton'
-import { provideRouter } from '@angular/router'
-import { NO_ERRORS_SCHEMA } from '@angular/core'
+import { ButtonModule } from 'primeng/button'
+import { MenuModule } from 'primeng/menu'
+import { RouterModule } from '@angular/router'
+import { DialogModule } from 'primeng/dialog'
+import { SplitButtonModule } from 'primeng/splitbutton'
+import { StudentFormComponent } from '../form/student-form.component'
+import { SplitButtonComponent } from '../../../widgets/split.button.component'
+import { SelectModule } from 'primeng/select'
+import { CheckboxModule } from 'primeng/checkbox'
+import { InputTextModule } from 'primeng/inputtext'
+import { DropdownModule } from 'primeng/dropdown'
+import { ButtonComponent } from '../../../widgets/button.component'
+import { InputNumberComponent } from '../../../widgets/input-number.component'
+import { InputTextComponent } from '../../../widgets/input-text.component'
+import { CheckboxComponent } from '../../../widgets/checkbox.component'
+import { SelectComponent } from '../../../widgets/select.component'
+import { ReactiveFormsModule } from '@angular/forms'
 
 describe('StudentListComponent', () => {
   let component: StudentListComponent
   let fixture: ComponentFixture<StudentListComponent>
-  let studentServiceSpy: jasmine.SpyObj<StudentService>
+  let studentServiceMock: jasmine.SpyObj<StudentService>
+  let cdRefMock: jasmine.SpyObj<ChangeDetectorRef>
 
   beforeEach(async () => {
-    const studentServiceMock = jasmine.createSpyObj('StudentService', ['getStudents'])
+    studentServiceMock = jasmine.createSpyObj('StudentService', [
+      'getStudents',
+      'deleteStudent',
+      'updateStudent',
+      'addStudent'
+    ])
+    cdRefMock = jasmine.createSpyObj('ChangeDetectorRef', ['detectChanges'])
+
+    studentServiceMock.getStudents.and.returnValue(throwError(() => new Error('API Error')))
 
     await TestBed.configureTestingModule({
-      imports: [TableModule, SplitButton, StudentListComponent], // ✅ Import standalone component
-      providers: [{ provide: StudentService, useValue: studentServiceMock }, provideRouter([])],
-      schemas: [NO_ERRORS_SCHEMA]
+      declarations: [StudentListComponent, StudentFormComponent],
+      imports: [
+        TableModule,
+        ButtonModule,
+        MenuModule,
+        RouterModule.forRoot([]),
+        DialogModule,
+        SplitButtonModule,
+        DropdownModule,
+        SplitButtonComponent,
+        SelectModule,
+        CheckboxModule,
+        InputTextModule,
+        SplitButtonComponent,
+        ButtonComponent,
+        InputNumberComponent,
+        InputTextComponent,
+        SplitButtonComponent,
+        CheckboxComponent,
+        SelectComponent,
+        ReactiveFormsModule
+      ],
+      providers: [
+        { provide: StudentService, useValue: studentServiceMock },
+        { provide: ChangeDetectorRef, useValue: cdRefMock }
+      ]
     }).compileComponents()
 
     fixture = TestBed.createComponent(StudentListComponent)
     component = fixture.componentInstance
-    studentServiceSpy = TestBed.inject(StudentService) as jasmine.SpyObj<StudentService>
   })
 
   it('should create', () => {
     expect(component).toBeTruthy()
   })
 
-  it('should initialize with student data', () => {
+  it('should fetch students on init', () => {
     const mockResponse: PaginatedResponse<Student[]> = {
       result: [
         {
@@ -52,33 +99,102 @@ describe('StudentListComponent', () => {
         previousPage: null
       }
     }
-    studentServiceSpy.getStudents.and.returnValue(of(mockResponse))
+    studentServiceMock.getStudents.and.returnValue(of(mockResponse))
 
     component.ngOnInit()
-    fixture.detectChanges()
 
-    expect(studentServiceSpy.getStudents).toHaveBeenCalledWith(1, 20)
     expect(component.students.length).toBe(1)
     expect(component.totalRecords).toBe(1)
+    expect(studentServiceMock.getStudents).toHaveBeenCalledWith(1, component.pageSize)
   })
 
-  it('should handle errors when fetching students', () => {
-    studentServiceSpy.getStudents.and.returnValue(throwError(() => new Error('API Error')))
+  it('should handle fetchStudents error', () => {
+    studentServiceMock.getStudents.and.returnValue(throwError(() => new Error('API Error')))
 
     component.fetchStudents(1)
-    fixture.detectChanges()
 
-    expect(studentServiceSpy.getStudents).toHaveBeenCalled()
+    expect(studentServiceMock.getStudents).toHaveBeenCalled()
     expect(component.loading).toBeFalse()
   })
 
-  it('should update page when onPageChange is called', () => {
+  it('should delete a student and refresh the list', () => {
+    studentServiceMock.deleteStudent.and.callFake(() => {
+      return of(null) as unknown as void
+    })
     spyOn(component, 'fetchStudents')
-    const event = { first: 20, rows: 20 }
 
-    component.onPageChange(event)
+    component.selectStudentOption(ButtonAction.Delete, { uid: '1' })
 
-    expect(component.pageSize).toBe(20)
-    expect(component.fetchStudents).toHaveBeenCalledWith(2)
+    expect(studentServiceMock.deleteStudent).toHaveBeenCalledWith('1')
+    expect(component.fetchStudents).toHaveBeenCalled()
+  })
+
+  it('should open the edit student form', () => {
+    const student = {
+      uid: '700b835b-8415-451f-9106-8e417241f5e9',
+      firstName: 'Updated Cory',
+      lastName: 'Jennings',
+      age: 21,
+      gender: 'Other',
+      courses: ['Biology', 'Music', 'Art']
+    }
+
+    component.openEditStudentForm(student)
+
+    expect(component.updatedStudent).toEqual(student)
+    expect(component.displayStudentForm).toBeTrue()
+  })
+
+  it('should update student and refresh the list', () => {
+    studentServiceMock.updateStudent.and.callFake(() => {
+      return of(null) as unknown as void
+    })
+    spyOn(component, 'fetchStudents')
+
+    const student = {
+      uid: '700b835b-8415-451f-9106-8e417241f5e9',
+      firstName: 'Updated Cory',
+      lastName: 'Jennings',
+      age: 21,
+      gender: 'Other',
+      courses: ['Biology', 'Music', 'Art']
+    }
+    component.updatedStudent = student
+    component.saveStudent(student)
+
+    expect(studentServiceMock.updateStudent).toHaveBeenCalledWith(student)
+    expect(component.fetchStudents).toHaveBeenCalled()
+    expect(component.displayStudentForm).toBeFalse()
+  })
+
+  it('should add a student and refresh the list', () => {
+    studentServiceMock.addStudent.and.callFake(() => {
+      return of(null) as unknown as void
+    })
+    spyOn(component, 'fetchStudents')
+
+    const student = {
+      uid: '2fb0b07e-c1e0-4343-aadc-b151431cad2a',
+      firstName: 'Amy',
+      lastName: 'Levine',
+      age: 22,
+      gender: 'Male',
+      courses: ['History', 'Science', 'Art', 'English']
+    }
+    component.updatedStudent = null
+    component.saveStudent(student)
+
+    expect(studentServiceMock.addStudent).toHaveBeenCalledWith(student)
+    expect(component.fetchStudents).toHaveBeenCalled()
+    expect(component.displayStudentForm).toBeFalse()
+  })
+
+  it('should update pagination on page change', () => {
+    spyOn(component, 'fetchStudents')
+
+    component.onPageChange({ first: 20, rows: 10 })
+
+    expect(component.pageSize).toBe(10)
+    expect(component.fetchStudents).toHaveBeenCalledWith(3)
   })
 })

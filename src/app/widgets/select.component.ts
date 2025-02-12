@@ -2,7 +2,6 @@ import { Component, forwardRef, Input } from '@angular/core'
 import { FormGroup, NG_VALUE_ACCESSOR, ControlValueAccessor, FormControl } from '@angular/forms'
 import { ReactiveFormsModule } from '@angular/forms'
 import { CommonModule } from '@angular/common'
-import { DropdownModule } from 'primeng/dropdown' // Import PrimeNG DropdownModule
 import { SelectModule } from 'primeng/select'
 import { SelectItem } from '../interfaces/select.interfaces'
 
