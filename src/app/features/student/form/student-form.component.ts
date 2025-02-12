@@ -86,14 +86,14 @@ export class StudentFormComponent implements OnInit {
   validateAgeField(): string | null {
     const control = this.studentForm.get('age')
     return control?.hasError('required')
-      ? 'Age is required.'
+      ? '* Age is required.'
       : control?.hasError('min')
-        ? 'Age must be at least 18.'
+        ? '* Age must be at least 18.'
         : ''
   }
 
   validateStringField(formName: string): string {
     const control = this.studentForm.get(formName)
-    return control?.hasError('required') ? 'Field is required.' : ''
+    return control?.hasError('required') ? '* Field is required.' : ''
   }
 }

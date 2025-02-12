@@ -22,7 +22,7 @@ import { CheckboxModule } from 'primeng/checkbox'
           <label [for]="option">{{ option }}</label>
         </div>
       </div>
-      <small *ngIf="control?.invalid && control?.touched" class="p-error">
+      <small *ngIf="control?.invalid && control?.touched" class="error-message-text">
         {{ errorMessage }}
       </small>
     </div>
@@ -34,13 +34,12 @@ import { CheckboxModule } from 'primeng/checkbox'
       align-items: flex-start;
       width: 100%;
       gap: 0.5rem;
-
-      .checkbox-items-holder {
+      & .checkbox-items-holder {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
         gap: 0.5rem;
-        .checkbox-item-holder {
+        & .checkbox-item-holder {
           display: flex;
           align-items: center;
           flex-direction: row;

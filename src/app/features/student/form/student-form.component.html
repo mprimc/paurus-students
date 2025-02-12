@@ -33,7 +33,7 @@
         label="Gender:"
         formControlName="gender"
         [options]="genderOptions"
-        [errorMessage]="'Gender is required'"
+        [errorMessage]="'* Gender is required'"
       ></dropdown-select>
 
       <checkbox
@@ -41,7 +41,7 @@
         label="Select Courses:"
         formControlName="courses"
         [options]="availableCourses"
-        [errorMessage]="'At least one course must be selected'"
+        [errorMessage]="'* At least one course must be selected'"
       ></checkbox>
     </div>
 

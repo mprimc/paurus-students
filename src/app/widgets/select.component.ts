@@ -11,19 +11,21 @@ import { SelectItem } from '../interfaces/select.interfaces'
   imports: [ReactiveFormsModule, CommonModule, SelectModule], // Import DropdownModule
   template: `
     <div class="select-container">
-      <label for="inputSelect">{{ label }}</label>
-      <p-select
-        *ngIf="control"
-        id="inputSelect"
-        [formControl]="control"
-        [options]="options"
-        optionLabel="label"
-        optionValue="value"
-        placeholder="Select {{ label }}"
-        size="small"
-      >
-      </p-select>
-      <small *ngIf="control?.invalid && control?.touched" class="p-error">
+      <div class="select-data-holder">
+        <label for="inputSelect">{{ label }}</label>
+        <p-select
+          *ngIf="control"
+          id="inputSelect"
+          [formControl]="control"
+          [options]="options"
+          optionLabel="label"
+          optionValue="value"
+          placeholder="Select {{ label }}"
+          size="small"
+        >
+        </p-select>
+      </div>
+      <small *ngIf="control?.invalid && control?.touched" class="error-message-text">
         {{ errorMessage }}
       </small>
     </div>
@@ -31,14 +33,20 @@ import { SelectItem } from '../interfaces/select.interfaces'
   styles: `
     .select-container {
       display: flex;
+      flex-direction: column;
       width: 100%;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: row;
-      gap: 0.5rem;
+      gap: 0.4rem;
+      & .select-data-holder {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        gap: 0.5rem;
 
-      .p-select {
-        min-width: 9rem;
+        .p-select {
+          min-width: 9rem;
+        }
       }
     }
   `,

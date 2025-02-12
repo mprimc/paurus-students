@@ -9,9 +9,11 @@ import { CommonModule } from '@angular/common'
   imports: [ReactiveFormsModule, CommonModule],
   template: `
     <div class="input-text-container">
-      <label for="inputText">{{ label }}</label>
-      <input *ngIf="control" id="inputText" pInputText [formControl]="control" />
-      <small *ngIf="control?.invalid && control?.touched" class="p-error">
+      <div class="input-text-data-holder">
+        <label for="inputText">{{ label }}</label>
+        <input *ngIf="control" id="inputText" pInputText [formControl]="control" />
+      </div>
+      <small *ngIf="control?.invalid && control?.touched" class="error-message-text">
         {{ errorMessage }}
       </small>
     </div>
@@ -19,11 +21,17 @@ import { CommonModule } from '@angular/common'
   styles: `
     .input-text-container {
       display: flex;
+      flex-direction: column;
       width: 100%;
-      align-items: center;
-      justify-content: space-between;
-      flex-direction: row;
-      gap: 0.5rem;
+      gap: 0.4rem;
+      & .input-text-data-holder {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 0.5rem;
+      }
     }
   `,
   providers: [
