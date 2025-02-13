@@ -1,6 +1,6 @@
 describe('Student Management App', () => {
   beforeEach(() => {
-    cy.viewport(1440, 900)
+    Cypress.env('CYPRESS_VIEWPORT_WIDTH') || 1280, Cypress.env('CYPRESS_VIEWPORT_HEIGHT') || 720
     cy.visit('/')
   })
 
