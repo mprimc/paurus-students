@@ -14,6 +14,11 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 - [Running Unit Tests](#running-unit-tests)
 - [Running End-to-End Tests](#running-end-to-end-tests)
 - [GitHub CI/CD](#github-cicd)
+- [Release procedures](#release-procedures)
+  - [Start first project release](#start-first-project-release)
+  - [Release new patch version (bug-fix)](#release-new-patch-version-bug-fix)
+  - [Release new minor release (feature)](#release-new-minor-release-feature)
+  - [Start new major release (breaking)](#start-new-major-release-breaking)
 
 ## Paurus Assignment
 
@@ -123,3 +128,74 @@ GitHub Action run the following jobs:
   - code-style
   - test-unit
   - test-e2e -> currently disabled because I have not deep dived the issue of different OS browsers environments (it works ok on local mac machine)
+
+## Release procedures
+
+Command `npm version ...` will:
+
+1. run `preversion` npm script
+1. changed version in `package.json` and `package-lock.json` files
+1. run `version` npm script
+1. create new commit with commit message as defined in `-m` argument
+1. tag this new commit message as version with `v*` prefix (examples: v1.0.0, v1.1.1-SNAPSHOT.0, ...)
+1. run `postversion` npm script
+
+### Start first project release
+
+You should first create new release branch: `git checkout -b release-1.0` and then push it to remote repository with `git push --set-upstream origin release-1.0`.
+
+After that you should create a tagged commit with SNAPSHOT version. You can do that by running `npm version prerelease --preid=SNAPSHOT -m "Chore: Update to version %s"`. This will create your first SNAPSHOT version **1.0.0-SNAPSHOT.0**. You can then use `npm version prerelease --preid=SNAPSHOT -m "Chore: Update to version %s"` to release additional SNAPSHOT versions. Next SNAPSHOT version in this case would be **1.0.0-SNAPSHOT.1**
+
+When project is good enough to release a release candidate (RC) version, you should run `npm version prerelease --preid=RC -m "Chore: Update to version %s"`. You can release multiple RC versions, but you shouldn't release any SNAPSHOT versions after first RC version was released. After creating RC version, version should be **1.0.0-RC.0**, **1.0.0-RC.1** etc.
+
+When project is good enough to release a general availability (GA) version, you should run `npm version major -m "Chore: Update to version %s"`. Project will now be versioned as **1.0.0**.
+
+After releasing GA version, you should start new bug-fix version. You can start new bug-fix version by running `npm version prepatch --preid=SNAPSHOT -m "Chore: Update to version %s"`. This will start a new bug-fix version **1.0.1-SNAPSHOT.0**.
+
+Then merge this branch to `master` branch.
+
+### Release new patch version (bug-fix)
+
+As you always start new patch version after releasing GA version, you should already be on correct SNAPSHOT version. If you are not, you should then use `npm version prepatch --preid=SNAPSHOT -m "Chore: Update to version %s"` to start new patch version. You should be on version similar to **1.0.1-SNAPSHOT.0**.
+
+You can then use `npm version prerelease --preid=SNAPSHOT -m "Chore: Update to version %s"` to release additional SNAPSHOT versions (**1.0.1-SNAPSHOT.1**, **1.0.1-SNAPSHOT.2**, ...).
+
+When project is good enough to release a release candidate (RC) version, you should run `npm version prerelease --preid=RC -m "Chore: Update to version %s"`. This should create version **1.0.1-RC.0**. You can release multiple RC versions, but you shouldn't release any SNAPSHOT versions after first RC version was released (**1.0.1-RC.1**, **1.0.1-RC.2**, ...).
+
+When project is good enough to release a general availability (GA) version, you should run `npm version patch -m "Chore: Update to version %s"`. This will create version **1.0.1**.
+
+After releasing GA version, you should start new bug-fix version. You can start new bug-fix version by running `npm version prepatch --preid=SNAPSHOT -m "Chore: Update to version %s"`. This will start a new bug-fix version **1.0.2-SNAPSHOT.0**.
+
+Then up-merge this branch to higher `release-x.y` branches and finally `master`.
+
+_**NOTE:** Merging different versions tree can and will sometimes cause merge conflicts. After merging, package.json and package-lock.json should have the branch current version number!_
+
+### Release new minor release (feature)
+
+You should first create new release branch: `git checkout -b release-1.1` and then push it to remote repository with `git push --set-upstream origin release-1.1`.
+
+After that you should create a tagged commit with SNAPSHOT version. You can do that by running `npm version preminor --preid=SNAPSHOT -m "Chore: Update to version %s"`. This will create your first SNAPSHOT version **1.1.0-SNAPSHOT.0**. You can then use `npm version prerelease --preid=SNAPSHOT -m "Chore: Update to version %s"` to release additional SNAPSHOT versions.
+
+When project is good enough to release a release candidate (RC) version, you should run `npm version prerelease --preid=RC -m "Chore: Update to version %s"`. This will create version **1.1.0-RC.0**. You can release multiple RC versions, but you shouldn't release any SNAPSHOT versions after first RC version was released (**1.1.0-RC.1**, **1.1.0-RC.2**, ...).
+
+When project is good enough to release a general availability (GA) version, you should run `npm version minor -m "Chore: Update to version %s"`. This will create version **1.1.0**.
+
+After releasing GA version, you should start new bug-fix version. You can start new bug-fix version by running `npm version prepatch --preid=SNAPSHOT -m "Chore: Update to version %s"`. This will start a new bug-fix version **1.1.1-SNAPSHOT.0**.
+
+Then up-merge this branch to higher `release-x.y` branches and finally `master`.
+
+_**NOTE:** Merging different versions tree can and will sometimes cause merge conflicts. After merging, package.json and package-lock.json should have the branch current version number!_
+
+### Start new major release (breaking)
+
+You should first create new release branch: `git checkout -b release-2.0` and then push it to remote repository with `git push --set-upstream origin release-2.0`.
+
+After that you should create a tagged commit with SNAPSHOT version. You can do that by running `npm version premajor --preid=SNAPSHOT -m "Chore: Update to version %s"`. This will create your first SNAPSHOT version **2.0.0-SNAPSHOT.0**. You can then use `npm version prerelease --preid=SNAPSHOT -m "Chore: Update to version %s"` to release additional SNAPSHOT versions (**2.0.0-SNAPSHOT.1**, **2.0.0-SNAPSHOT.2**, ...).
+
+When project is good enough to release a release candidate (RC) version, you should run `npm version prerelease --preid=RC -m "Chore: Update to version %s"`. This will create version **2.0.0-RC.0**. You can release multiple RC versions, but you shouldn't release any SNAPSHOT versions after first RC version was released (**2.0.0-RC.1**, **2.0.0-RC.2**, ...).
+
+When project is good enough to release a general availability (GA) version, you should run `npm version major -m "Chore: Update to version %s"`. This will create version **2.0.0**.
+
+After releasing GA version, you should start new bug-fix version. You can start new bug-fix version by running `npm version prepatch --preid=SNAPSHOT -m "Chore: Update to version %s"`. This will start a new bug-fix version **2.0.1-SNAPSHOT.0**.
+
+Then up-merge this branch to higher `release-x.y` branches and finally `master`.
