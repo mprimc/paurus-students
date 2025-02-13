@@ -1,5 +1,6 @@
 describe('Student Management App', () => {
   beforeEach(() => {
+    cy.viewport(1440, 900)
     cy.visit('/')
   })
 
