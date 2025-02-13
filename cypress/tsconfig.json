@@ -4,5 +4,6 @@
   "compilerOptions": {
     "sourceMap": false,
     "types": ["cypress"]
-  }
+  },
+  "types": ["@simonsmith/cypress-image-snapshot/types"]
 }
