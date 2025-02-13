@@ -18,4 +18,13 @@
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
+  on('before:browser:launch', (browser = {}, args) => {
+    if (browser.name === 'chrome') {
+      args.push('--cast-initial-screen-width=1280')
+      args.push('--cast-initial-screen-height=720')
+      args.push('--window-size=1280,720')
+
+      return args
+    }
+  })
 }

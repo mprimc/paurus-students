@@ -11,8 +11,8 @@
     "format": "prettier --write \"src/**/*.{ts,css,scss,html}\" --ignore-path=\".prettierignore\"",
     "e2e": "ng e2e",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "cypress:run:debug": "npx cypress run --env updateSnapshots=true"
+    "cypress:run": "cypress run --browser chrome --headless",
+    "cypress:run:debug": "npx cypress run --env updateSnapshots=true --browser chrome --headless"
   },
   "private": true,
   "dependencies": {
