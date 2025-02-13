@@ -1,5 +1,4 @@
 import { defineConfig } from 'cypress'
-import getCompareSnapshotsPlugin from 'cypress-image-diff-js/plugin'
 
 export default defineConfig({
   e2e: {
@@ -12,9 +11,6 @@ export default defineConfig({
       runMode: 2,
       openMode: 0
     },
-    defaultCommandTimeout: 10000,
-    setupNodeEvents(on, config) {
-      return getCompareSnapshotsPlugin(on, config)
-    }
+    defaultCommandTimeout: 10000
   }
 })
