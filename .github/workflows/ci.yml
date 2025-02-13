@@ -97,8 +97,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run app
-        run: npm run start
+      - name: Run Angular App
+        run: npm run start &
+        env:
+          CI: true
 
-      - name: Run e2e tests
+      - name: Wait for App to Start
+        run: npx wait-on http://localhost:4200
+
+      - name: Run Cypress e2e tests
         run: npm run cypress:run
