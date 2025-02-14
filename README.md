@@ -1,4 +1,4 @@
-# PaurusStudents
+# Paurus Students
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
 
@@ -14,6 +14,9 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 - [Running Unit Tests](#running-unit-tests)
 - [Running End-to-End Tests](#running-end-to-end-tests)
 - [GitHub CI/CD](#github-cicd)
+- [Cloudflare pages](#cloudflare-pages)
+  - [Manual deployment to Cloudflare page](#manual-deployment-to-cloudflare-page)
+  - [First configuration](#first-configuration)
 - [Release procedures](#release-procedures)
   - [Start first project release](#start-first-project-release)
   - [Release new patch version (bug-fix)](#release-new-patch-version-bug-fix)
@@ -128,6 +131,42 @@ GitHub Action run the following jobs:
   - code-style
   - test-unit
   - test-e2e -> currently disabled because I have not deep dived the issue of different OS browsers environments (it works ok on local mac machine)
+    - deploy-to-cloudflare-pages -> on git push the build is deployed on cloudflare
+
+## Cloudflare pages
+
+On every push the deployment is push to Cloudflare which can be accessed though the following links
+
+main branch: https://paurus-students.pages.dev
+particular commit: https://SHORT.COMMIT-HASH.paurus-students.pages.dev
+particular branch: https://branch-name.paurus-students.pages.dev
+
+### Manual deployment to Cloudflare page
+
+Set token to your environment
+
+```bash
+export CLOUDFLARE_API_TOKEN=
+echo "$CLOUDFLARE_API_TOKEN"
+```
+
+Build and deploy to Cloudflare
+
+```bash
+npm run build
+npx wrangler pages deploy
+```
+
+### First configuration
+
+For the new project you can set wrangler options via command line or install npm package
+Command line
+
+```bash
+npx wrangler pages download config paurus-students
+```
+
+Properly config `wrangler.toml` file
 
 ## Release procedures
 
