@@ -2,6 +2,7 @@
 name: Deploy Angular app to Cloudflare
 
 on:
+  workflow_call:
   # workflow_run:
   #   workflows: [Angular CI/CD Pipeline for GitHub] # Wait for test to complete
   #   types: [completed]
