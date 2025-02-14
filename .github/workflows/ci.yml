@@ -7,6 +7,7 @@ on:
         required: true
         type: string
   push:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -110,3 +111,8 @@ jobs:
 
   #     - name: Run Cypress e2e tests
   #       run: npm run cypress:run
+
+  deploy-to-cloudflare:
+    uses: ./.github/workflows/deploy-cloudflare.yml
+    secrets: inherit
+    needs: [code-style, test-unit]
