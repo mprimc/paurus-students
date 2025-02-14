@@ -114,11 +114,5 @@ jobs:
 
   deploy-to-cloudflare:
     uses: ./.github/workflows/deploy-cloudflare.yml
+    secrets: inherit
     needs: [code-style, test-unit]
-    # runs-on: ubuntu-latest
-
-    # steps:
-    # - uses: actions/checkout@v4
-
-    # - name: Cludflare deployment
-    #   uses: ./.github/workflows/deploy-cloudflare.yml
