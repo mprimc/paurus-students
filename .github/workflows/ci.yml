@@ -113,9 +113,12 @@ jobs:
   #       run: npm run cypress:run
 
   deploy-to-cloudflare:
+    uses: ./.github/workflows/deploy-cloudflare.yml
     needs: [code-style, test-unit]
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Cludflare deployment
-        uses: ./.github/workflows/deploy-cloudflare.yml
+    # runs-on: ubuntu-latest
+
+    # steps:
+    # - uses: actions/checkout@v4
+
+    # - name: Cludflare deployment
+    #   uses: ./.github/workflows/deploy-cloudflare.yml
