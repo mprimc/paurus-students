@@ -2,11 +2,11 @@
 name: Deploy Angular app to Cloudflare
 
 on:
-  workflow_run:
-    workflows: [Angular CI/CD Pipeline for GitHub] # Wait for test to complete
-    types: [completed]
-    branches:
-      - main
+  # workflow_run:
+  #   workflows: [Angular CI/CD Pipeline for GitHub] # Wait for test to complete
+  #   types: [completed]
+  #   branches:
+  #     - main
   workflow_dispatch:
 
 concurrency:
@@ -42,4 +42,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           # accountId: ${{ steps.op-load-secret.outputs.CLOUDFLARE_ACCOUNT_ID }}
           # Branch can always be prod so that deployment is deployed on correct domain instead of the one on pages.
-          command: pages deploy --branch=main --commit-hash=${{ github.sha }}
+          command: pages deploy
