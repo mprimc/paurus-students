@@ -47,7 +47,13 @@
 
     <div class="student-form-dialog-footer">
       <button label="Cancel" (click)="onCancel()" class="p-button-text"></button>
-      <button label="Save" [disabled]="studentForm.invalid" class="p-button-text"></button>
+      <button
+        type="button"
+        label="Save"
+        [disabled]="studentForm.invalid"
+        class="p-button-text"
+        (click)="onSubmit()"
+      ></button>
     </div>
   </form>
 </p-dialog>
